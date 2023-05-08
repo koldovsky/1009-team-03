@@ -10,7 +10,7 @@ HTML files with 'partial.html' suffix will be ignored, so validator is compatibl
 
 
 <h1>
-Asteroid virtual tours
+Asteroid Virtual Tours&#128125;
 </h1>
 <img src=img/project_preview.png>
 <h3>
