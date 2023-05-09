@@ -1,1 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.header__hero h1 {
+    font-family: 'Leckerli One', undefined;
+    font-size: 115px;
+}
+
+.header__hero p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    /* color:rgba(255,255,255,0.6); */
+}
+
+.header__buttons--our_movies p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.header__buttons--send_request {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
