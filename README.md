@@ -15,5 +15,5 @@ Asteroid Virtual Tours&#128125;
 <a href="https://a5y62.weblium.site"><img src=img/project_preview.png></a>
 <h3>
 Hello! "Asteroid Virtual Tours" is a prototype project that represents a virtual tour of the asteroids in our solar system.
-Click<a href="https://koldovsky.github.io/1009-team-03/"> here </a>to view our project
+Click<a href="https://koldovsky.github.io/1009-team-03/"> here </a>to view our project.
 </h3>
