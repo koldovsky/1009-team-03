@@ -1,19 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
+.header {
+    background-image: url("../img/header-background.webp");
+    background-size: cover;
+    
+}
+
 
 .header__hero h1 {
     font-family: 'Leckerli One', undefined;
     font-size: 115px;
+    color: white;
 }
 
 .header__hero p {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    /* color:rgba(255,255,255,0.6); */
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .header__buttons--our_movies p {
@@ -24,4 +34,19 @@
 .header__buttons--send_request {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
+}
+
+.header__menu-link {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+}
+
+.header__burger-menu {
+    width: 24px;
+	height: 16px;
+	position: relative;
+	z-index:2;
+	overflow: hidden;
 }
