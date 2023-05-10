@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.about {
+    background-image: url("../img/vr_dude.png");
+    background-size:cover ;
+    font-family: "Roboto";
+    color: #ffffff;
+    
+    min-width: 910px;
+    height: 650px;
+}
+
+.about__top-head  {
+    font-family: "Rajdhani";
+    font-size: 14px;
+    letter-spacing: 5.6px;
+    margin-left: 45rem;
+    
+}
+.about__divider {
+    margin-left: 45rem;   
+}
+
+.about__second-head {
+    font-family: "Rajdhani";
+    font-size: 50px;
+    margin-left: 45rem;
+    
+}
+.about__paragraph {
+    letter-spacing: 0.48px;
+    margin-left: 45rem;
+    
+  
+    text-align: left;
+}
+.about__top-highlighted-text {
+    color: #267EDC
+}
+.about__second-highlighted-text {
+    color: #FD7150;
+}
+
+.about__learn-more {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 12px;
+    letter-spacing: 2.4px;
+    border: solid rgb(38, 126, 220) 1px;
+    text-align: center;
+    padding: 19px;
+    border-radius: 10px;
+    margin-left: 60em;
+    position:relative;
+    top: 30px
+    
+}
+.about__learn-more:hover {
+    background-color: rgb(38, 126, 220);
+
+}
