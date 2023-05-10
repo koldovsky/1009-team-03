@@ -22,22 +22,22 @@
     font-family: "Rajdhani";
     font-size: 14px;
     letter-spacing: 5.6px;
-    margin-left: 45rem;
+    margin-left: 70rem;
     
 }
 .about__divider {
-    margin-left: 45rem;   
+    margin-left: 70rem;   
 }
 
 .about__second-head {
     font-family: "Rajdhani";
     font-size: 50px;
-    margin-left: 45rem;
+    margin-left: 70rem;
     
 }
 .about__paragraph {
     letter-spacing: 0.48px;
-    margin-left: 45rem;
+    margin-left: 70rem;
     
   
     text-align: left;
@@ -59,9 +59,10 @@
     text-align: center;
     padding: 19px;
     border-radius: 10px;
-    margin-left: 60em;
+    margin-left: 100em;
     position:relative;
-    top: 30px
+    top: 70px
+    
     
 }
 .about__learn-more:hover {
