@@ -28,10 +28,7 @@
     margin: auto;
 }
 
-img {
-    display: block;
-    width: 100%;
-}
+
 
 .header__menu-list {
     list-style-type: none;
@@ -70,10 +67,7 @@ img {
     font-size: 12px;
 }
 
-.header__buttons--send_request {
-    font-family: 'Roboto', sans-serif;
-    font-size: 12px;
-}
+
 
 
 
@@ -82,23 +76,55 @@ img {
     display: none;
 }
 
-.header__buttons{
-    margin-top: 30px;
-    
+.header__buttons {
+    margin-top: 60px;
+    display: flex;
+
 }
 
 .header__buttons--send_request {
     font-family: "Roboto";
-    font-size: 12px;
-    margin-top: 10em ;
-    margin-left: 50em;
-    padding :10px 20px 10px 20px;
-    height: 52px;
     text-decoration: none;
-    background: linear-gradient(rgb(40,131,222), rgb(66,190,248))
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: white;
+    padding: 18px 30px;
+    margin: 10px 0 0 35em;
+    transition: color, background-color 0.2s linear;
+    background: linear-gradient(rgb(40, 131, 222), rgb(66, 190, 248));
+    border-radius: 8px;
+    width: 190px;
+    height: 52px;
+    text-align: center;
 }
-.header__buttons--send_request:hover{
-    background: linear-gradient(rgb(40,131,222), rgb(40,131,222)
+
+.header__buttons--send_request:hover {
+    background: linear-gradient(rgb(40, 131, 222), rgb(40, 131, 222))
+}
+
+.header__buttons--our_movies {
+    font-family: "Roboto";
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: white;
+    padding: 18px 30px;
+    margin: 10px 0 0 0;
+    transition: color, background-color 0.2s linear;
+    background-color: 0;
+    width: 170px;
+    height: 52px;
+    text-align: center;
+}
+
+.header__buttons__movie_svg {
+    
 }
 
 @media (min-width: 500px) {
