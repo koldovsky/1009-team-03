@@ -9,13 +9,17 @@
     margin-bottom: 50px;
 }
 
+.footer__info:hover {
+    text-decoration: underline;
+    color: rgb(106, 158, 236);
+}
+
 .footer__logo {
-    margin-top: 100px;
     margin-left: 300px;
 }
 
 .footer__follow-us {
-    margin-left: 600px;
+    margin-left: 1410px;
 }
 
 .footer__team {
@@ -34,7 +38,15 @@
 }
 
 .footer_rights-reserved {
-    margin-left: 1450px;
+    margin-left: 1430px;
     color: white;
     font-family: "Roboto";
 }
+
+a:link {
+    text-decoration: none;
+}
+
+a {
+    color: white;
+  }
