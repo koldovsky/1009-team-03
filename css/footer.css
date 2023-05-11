@@ -3,7 +3,7 @@
 }
 
 .footer__info {
-    font-family: inherit;
+    font-family: "Roboto";
     color: white;
     margin-left: 600px;
     margin-bottom: 50px;
@@ -21,7 +21,7 @@
 .footer__team {
     margin-left: 300px;
     color: white;
-    font-family: inherit;
+    font-family: "Roboto";
     
 }
 
@@ -36,5 +36,5 @@
 .footer_rights-reserved {
     margin-left: 1450px;
     color: white;
-    font-family: inherit;
+    font-family: "Roboto";
 }
