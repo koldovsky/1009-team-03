@@ -1,3 +1,40 @@
 .footer {
-    background-color: black;
+    background-color: #120e14;
+}
+
+.footer__info {
+    font-family: inherit;
+    color: white;
+    margin-left: 600px;
+    margin-bottom: 50px;
+}
+
+.footer__logo {
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+.footer__follow-us {
+    margin-left: 600px;
+}
+
+.footer__team {
+    margin-left: 300px;
+    color: white;
+    font-family: inherit;
+    
+}
+
+.footer__hr {
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 1px;
+        background-color: #41403f;
+        border: none;
+}
+
+.footer_rights-reserved {
+    margin-left: 1450px;
+    color: white;
+    font-family: inherit;
 }
