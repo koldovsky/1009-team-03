@@ -2,7 +2,20 @@
 @import "map_block.css";
 @import "pricing.css";
 @import "galery.css";
-@import "about.css"
+@import "about.css";
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
 
 
 

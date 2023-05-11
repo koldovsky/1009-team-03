@@ -1,12 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .header {
     background-image: url("../img/header-background.webp");
     background-size: cover;
@@ -25,13 +16,6 @@
     margin-left: px;
 }
 
-.container {
-    max-width: 1200px;
-    margin: auto;
-}
-
-
-
 .header__menu-list {
     list-style-type: none;
     margin: 40px 10px 20px 350px;
@@ -43,25 +27,35 @@
     font-family: "Roboto";
     text-decoration: none;
     color: white;
-    margin: 10px;
+    margin: 15px;
     font-size: 15px;
+    border-bottom: 1px solid #00000000; 
+    padding-bottom: 5px;
 }
-.header__nav_socials{
+
+.menu_link:hover {
+	border-bottom: 3px solid #0287fb;
+    color: #0287fb;
+}
+
+.header__nav_socials {
     margin: auto;
-    padding-right: 70px;
+    padding-right: 30px;
     list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     flex: 1;
 }
-.header__nav_socials--link{
+
+.header__nav_socials--link {
     margin: 8px;
 }
 
 
 
 .header__hero h1 {
+    margin-top: 80px;
     font-family: 'Leckerli One', undefined;
     font-size: 160px;
     color: white;
@@ -79,9 +73,6 @@
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
 }
-
-
-
 
 
 
@@ -117,23 +108,38 @@
 .header__buttons--send_request:hover {
     background: linear-gradient(rgb(40, 131, 222), rgb(40, 131, 222))
 }
-
-.header__buttons--our_movies {
+.header__buttons--our_movies{
+    
+    display: inline-block;
+    width: 170px;
+    height: 52px;
+    margin-bottom: 20px;
     font-family: "Roboto";
     text-decoration: none;
-    display: inline-block;
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: white;
-    padding: 18px 30px;
-    margin: 10px 0 0 0;
-    transition: color, background-color 0.2s linear;
     background-color: 0;
-    width: 170px;
-    height: 52px;
     text-align: center;
+    border-bottom: 1px solid #00000000; 
+    padding-bottom: 5px;
+}
+.header__buttons--our_movies span{
+    padding: 2px;
+}
+.header__buttons--our_movies span:hover{
+    color: #0287fb;
+    border-bottom: 1px solid #0287fb; 
+}
+.icon{
+    margin-top: 20px;
+    margin-right: 5px;
+    color: #fafbfb;
+}
+.icon:hover{
+    color: #0287fb;
 }
 
 
