@@ -24,7 +24,7 @@
 
 .footer__team {
     margin-left: 300px;
-    color: white;
+    color: gray;
     font-family: "Roboto";
     
 }
@@ -39,7 +39,7 @@
 
 .footer_rights-reserved {
     margin-left: 1430px;
-    color: white;
+    color: #41403f;
     font-family: "Roboto";
 }
 
