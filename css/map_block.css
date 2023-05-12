@@ -1,29 +1,39 @@
-.map_block--container{
+.map_block {
+    height: 760px;
+}
+
+.map_block--container {
     width: 370px;
     height: 438px;
     background-color: white;
     margin-left: 70rem;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     padding: 10px;
+    
 }
-.map_block--adress{
+
+.map_block--adress {
     font-family: "Rajdhani", sans-serif;
     font-size: 14px;
     text-align: center;
-    color: rgb(127,124,128);
+    color: rgb(127, 124, 128);
     padding-top: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
-.map_block--container-line{
+.map_block--container-line {
     margin-top: 20px;
     margin-left: 165px;
     width: 20px;
     height: 2px;
-    background-color: rgb(127,124,128);
+    background-color: rgb(127, 124, 128);
 }
-.map_block--container h2{
+
+.map_block--container h2 {
     font-size: 50px;
     font-family: "Rajdhani", sans-serif;
     text-align: center;
-    
+
 }
+
