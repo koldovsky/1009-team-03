@@ -1,13 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani&family=Roboto&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-}
-
 .about {
     background-image: url("../img/vr_dude.png");
     background-size:cover ;
