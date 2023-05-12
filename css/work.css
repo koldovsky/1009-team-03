@@ -1,0 +1,6 @@
+.how-work {
+background-image: url("../img/how-work-background.webp");
+background-size: cover;
+color:aliceblue;
+display: flex;
+}
