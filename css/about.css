@@ -14,6 +14,7 @@
     font-family: "Rajdhani";
     font-size: 14px;
     letter-spacing: 5.6px;
+    color:#ffffff;
     padding: 10px;
 }
 .about__divider {
@@ -25,7 +26,6 @@
     font-size: 50px;
     padding: 10px;
     margin-bottom: 40px;
-    margin-top: 30px;
 }
 .about__paragraph {
     letter-spacing: 0.48px;
