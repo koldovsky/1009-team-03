@@ -1,10 +1,10 @@
 .map_block {
-    height: 760px;
+    min-height: 760px;
 }
 
 .map_block--container {
     width: 370px;
-    height: 438px;
+    min-height: 438px;
     background-color: white;
     margin-left: 70rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
