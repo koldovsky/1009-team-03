@@ -29,12 +29,12 @@
     color: white;
     margin: 15px;
     font-size: 15px;
-    border-bottom: 1px solid #00000000; 
+    border-bottom: 1px solid #00000000;
     padding-bottom: 5px;
 }
 
 .menu_link:hover {
-	border-bottom: 3px solid #0287fb;
+    border-bottom: 3px solid #0287fb;
     color: #0287fb;
 }
 
@@ -107,14 +107,15 @@
     height: 52px;
     text-align: center;
     position: relative;
-    
+
 }
 
 .header__buttons--send_request:hover {
     background: linear-gradient(rgb(40, 131, 222), rgb(40, 131, 222))
 }
-.header__buttons--our_movies{
-    
+
+.header__buttons--our_movies {
+
     display: inline-block;
     width: 170px;
     height: 52px;
@@ -128,22 +129,26 @@
     color: white;
     background-color: 0;
     text-align: center;
-    border-bottom: 1px solid #00000000; 
+    border-bottom: 1px solid #00000000;
     padding-bottom: 5px;
 }
-.header__buttons--our_movies span{
+
+.header__buttons--our_movies span {
     padding: 2px;
 }
-.header__buttons--our_movies span:hover{
+
+.header__buttons--our_movies span:hover {
     color: #0287fb;
-    border-bottom: 1px solid #0287fb; 
+    border-bottom: 1px solid #0287fb;
 }
-.icon{
+
+.icon {
     margin-top: 20px;
     margin-right: 5px;
     color: #fafbfb;
 }
-.icon:hover{
+
+.icon:hover {
     color: #0287fb;
 }
 
