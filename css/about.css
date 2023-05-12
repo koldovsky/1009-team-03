@@ -3,34 +3,39 @@
     background-size:cover ;
     font-family: "Roboto";
     color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    background-position: right;
+    /* height: 800px; */
     
-    min-width: 910px;
-    height: 650px;
+    align-items:flex-end ;
+    flex-wrap: wrap;
 }
 
 .about__top-head  {
     font-family: "Rajdhani";
     font-size: 14px;
     letter-spacing: 5.6px;
-    margin-left: 70rem;
     
+    padding: 10px;
 }
 .about__divider {
-    margin-left: 70rem;   
+    padding: 10px;   
 }
 
 .about__second-head {
     font-family: "Rajdhani";
     font-size: 50px;
-    margin-left: 70rem;
-    
+    padding: 10px;
+    margin-bottom: 40px;
+    margin-top: 30px;
 }
 .about__paragraph {
     letter-spacing: 0.48px;
-    margin-left: 70rem;
-    
-  
+    max-width: 450px;
+    line-height: 28.8px;
     text-align: left;
+    padding: 10px;
 }
 .about__top-highlighted-text {
     color: #267EDC
@@ -38,7 +43,18 @@
 .about__second-highlighted-text {
     color: #FD7150;
 }
-
+.about__container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 450px;
+   
+}
+.about__container-for-learn-more {
+    margin-top: 40px;
+    display: flex;
+    margin-bottom: 20px;
+}
 .about__learn-more {
     color: #ffffff;
     text-decoration: none;
@@ -49,10 +65,10 @@
     text-align: center;
     padding: 19px;
     border-radius: 10px;
-    margin-left: 100em;
-    position:relative;
-    top: 70px
-    
+    margin-top: 30px;
+    margin: auto;
+    /* position:relative; */
+    top: 30px
     
 }
 .about__learn-more:hover {
