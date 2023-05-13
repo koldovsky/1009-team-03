@@ -48,14 +48,14 @@
     color: white;
     margin: 0.938rem;
     font-size: 0.938rem;
-    border-bottom: 1px solid #00000000;
+    border-bottom: 1px solid var(--nothing-color) ;
     padding-bottom: 5px;
 
 }
 
 .menu_link:hover {
-    border-bottom: 3px solid #0287fb;
-    color: #0287fb;
+    border-bottom: 3px solid var(--header-blue-color);
+    color: var(--header-blue-color);
 }
 
 .header__nav_socials {
@@ -118,11 +118,10 @@
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: white;
+    color: var(--main-white-color);
     padding: 18px 30px;
     margin: 10px auto;
-    transition: color, background-color 0.2s linear;
-    background: linear-gradient(rgb(40, 131, 222), rgb(66, 190, 248));
+    background: linear-gradient(var(--header-gradient-blue), var(--header-gradient-light-blue));
     border-radius: 8px;
     width: 190px;
     height: 52px;
@@ -132,11 +131,11 @@
 }
 
 .header__buttons--send_request:hover {
-    background: linear-gradient(rgb(40, 131, 222), rgb(40, 131, 222))
+    background: linear-gradient(var(--header-gradient-blue), var(--header-gradient-blue));
+    color: var(--main-white-color);
 }
 
 .header__buttons--our_movies {
-
     display: inline-block;
     width: 170px;
     height: 52px;
@@ -147,10 +146,10 @@
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: white;
+    color: var(--main-white-color);
     background-color: 0;
     text-align: center;
-    border-bottom: 1px solid #00000000;
+    border-bottom: 1px solid var(--nothing-color);
     padding-bottom: 5px;
 }
 
@@ -159,18 +158,18 @@
 }
 
 .header__buttons--our_movies span:hover {
-    color: #0287fb;
-    border-bottom: 1px solid #0287fb;
+    color: var(--header-blue-color);
+    border-bottom: 1px solid var(--header-blue-color);
 }
 
 .icon {
     margin-top: 20px;
     margin-right: 5px;
-    color: #fafbfb;
+    color: var(--main-white-color);
 }
 
 .icon:hover {
-    color: #0287fb;
+    color: var(--header-blue-color);
 }
 
 .header__nav {
