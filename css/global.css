@@ -9,6 +9,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+    --main-white-color: rgb(255, 255, 255);
+    --alternative-dark-text: rgb(34, 34, 34);
+    --accent-text-color: rgb(38, 126, 220);
+    --alternative-accent-color: rgb(253, 113, 80);
+}
 
 .container {
     max-width: 1200px;
