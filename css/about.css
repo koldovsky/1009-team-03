@@ -1,8 +1,8 @@
 .about {
     background-image: url("../img/vr_dude.png");
     background-size:cover ;
-    font-family: "Roboto";
-    color: #ffffff;
+    font-family: "Roboto",sans-serif;
+    color: var(--main-white-color);
     display: flex;
     flex-direction: column;
     background-position: right;
@@ -11,10 +11,9 @@
 }
 
 .about__top-head  {
-    font-family: "Rajdhani";
+    font-family: "Rajdhani",sans-serif;
     font-size: 14px;
     letter-spacing: 5.6px;
-    color:#ffffff;
     padding: 10px;
 }
 .about__divider {
@@ -22,7 +21,7 @@
 }
 
 .about__second-head {
-    font-family: "Rajdhani";
+    font-family: "Rajdhani", sans-serif;
     font-size: 50px;
     padding: 10px;
     margin-bottom: 40px;
@@ -36,11 +35,11 @@
 }
 
 .about__top-highlighted-text {
-    color: #267EDC
+    color: var(--accent-text-color);
 }
 
 .about__second-highlighted-text {
-    color: #FD7150;
+    color: var(--alternative-accent-color);
 }
 .about__container{
     display: flex;
@@ -54,12 +53,12 @@
     margin-bottom: 20px;
 }
 .about__learn-more {
-    color: #ffffff;
+    color: var(--main-white-color);
     text-decoration: none;
     font-family: "Roboto";
     font-size: 12px;
     letter-spacing: 2.4px;
-    border: solid rgb(38, 126, 220) 1px;
+    border: solid var(--accent-text-color) 1px;
     text-align: center;
     padding: 19px;
     border-radius: 10px;
@@ -68,5 +67,5 @@
     top: 30px 
 }
 .about__learn-more:hover {
-    background-color: rgb(38, 126, 220);
+    background-color: var(--accent-text-color);
 }
