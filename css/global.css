@@ -10,6 +10,7 @@
     box-sizing: border-box;
 }
 :root {
+    --main-gray-color: rgba(255, 255, 255, 0.6);
     --header-gradient-blue: rgb(40, 131, 222);
     --header-gradient-light-blue: rgb(130, 182, 235);
     --header-blue-color: #0287fb;

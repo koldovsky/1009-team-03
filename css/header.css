@@ -9,13 +9,15 @@
     flex: 1;
     margin-top: 20px;
 }
-.header__logo-link{
+
+.header__logo-link {
     display: block;
     height: 74px;
     width: 211px;
-    
+
 }
-.logo_img{
+
+.logo_img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -39,16 +41,16 @@
     list-style-type: none;
     padding: 40px 10px 20px 20%;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
 }
 
 .menu_link {
     font-family: "Roboto";
     text-decoration: none;
-    color: white;
+    color: var(--main-white-color);
     margin: 0.938rem;
     font-size: 0.938rem;
-    border-bottom: 1px solid var(--nothing-color) ;
+    border-bottom: 1px solid var(--nothing-color);
     padding-bottom: 5px;
 
 }
@@ -78,14 +80,14 @@
     margin-top: 80px;
     font-family: 'Leckerli One', undefined;
     font-size: calc(70px + 110 * (100vw / 1280));
-    color: white;
+    color: var(--main-white-color);
     text-align: center;
 }
 
 .header__hero p {
     font-family: 'Roboto', sans-serif;
     font-size: 1.125rem;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--main-gray-color);
     text-align: center;
 }
 
@@ -177,14 +179,16 @@
 }
 
 @media (max-width: 700px) {
-    
-    .header__nav_socials{
+
+    .header__nav_socials {
         display: none;
     }
-    .header__menu-list{
+
+    .header__menu-list {
         display: none;
     }
-    .header__logo-link{
+
+    .header__logo-link {
         display: none;
     }
 }
