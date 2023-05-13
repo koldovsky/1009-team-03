@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --main-white-color: rgb(255, 255, 255);
+    --alternative-dark-text: rgb(34, 34, 34);
+    --accent-text-color: rgb(38, 126, 220);
+    --alternative-accent-color: rgb(253, 113, 80);
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
