@@ -1,10 +1,10 @@
+@import "global.css";
 @import "header.css";
-@import "map_block.css";
+@import "about.css";
 @import "pricing.css";
 @import "gallery.css";
 @import "steps.css";
-@import "footer.css";
-@import "about.css";
 @import "work.css";
-@import "global.css";
+@import "map_block.css";
+@import "footer.css";
 
