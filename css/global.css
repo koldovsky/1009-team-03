@@ -9,6 +9,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+    --main-gray-color: rgba(255, 255, 255, 0.6);
+    --header-gradient-blue: rgb(40, 131, 222);
+    --header-gradient-light-blue: rgb(130, 182, 235);
+    --header-blue-color: #0287fb;
+    --nothing-color: rgba(0, 0, 0, 0);
+    --main-dark-color: rgb(0, 0, 0);
+    --main-white-color: rgb(255, 255, 255);
+    --alternative-dark-text: rgb(34, 34, 34);
+    --accent-text-color: rgb(38, 126, 220);
+    --alternative-accent-color: rgb(253, 113, 80);
+}
 
 .container {
     max-width: 1200px;
