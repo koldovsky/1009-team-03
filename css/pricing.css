@@ -1,54 +1,87 @@
- 
-.pricing-plans {
+.pricing__container {
   background-image: url("../img/pricing-background.webp");
   background-size: cover;
   padding-top: 140px;
   padding-bottom: 150px;
-  box-sizing: border-box;
- 
-  }
-
-
+  display: block;
+}
 .family-plan {
   background-image: url(../img/pricing-plan-background-third.webp);
 }
-
 .party-plan {
   background-image: url(../img/pricing-plan-background-second.webp);
 }
-
 .group-plan {
   background-image: url(../img/pricing-plan-background-third.webp);
 }
+.pricing__title {
+  font-family: "Rajdhani", sans-serif;
+   color: var(--main-dark-color);
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  text-align: center;
+  padding: 10px;}
 
-.plan__list .product-card {
-  border: 4px solid var(--main-color);
-  padding: 5px;
+.pricing-text
+{
+  font-family: "Rajdhani", sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+.highlighted-text 
+{color: var(--accent-text-color);
+}
+.plan__list {
+  color: var(--main-white-color);
+}
+.product-card {
+  padding: 10px;
+}
 
+.plan-select__buttons {
+  font-family: "Roboto";
+  text-decoration: none;
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--main-white-color);
+  margin: 10px auto;
+  background: linear-gradient(
+    var(--header-gradient-blue),
+    var(--header-gradient-light-blue)
+  );
+  border-radius: 8px;
+  width: 140px;
+  height: 42px;
+  text-align: center;
+  position: relative;
+}
+.plan-select__buttons:hover {
+  background: linear-gradient(
+    var(--header-gradient-blue),
+    var(--header-gradient-blue)
+  );
+  color: var(--main-white-color);
 }
 
 @media (min-width: 640px) {
-  
   .plan__list {
-      display: grid;
-      gap: 5px;
-      grid-template-columns: 1fr 1fr;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr;
   }
-
 }
-
 @media (min-width: 960px) {
-  
   .plan__list {
-      grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
-
 }
 
 @media (min-width: 1200px) {
-  
   .plan__list {
-      grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
-
 }
