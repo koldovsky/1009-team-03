@@ -1,5 +1,6 @@
 .steps {
     background-color: var(--main-dark-shade-color);
+
 }
 .steps__title {
     font-family: Rajdhani, sans-serif;
@@ -8,6 +9,7 @@
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
+    padding: 60px 0px 75px;
 }
 .steps__subtitle {
     font-family: Rajdhani, sans-serif;
@@ -21,7 +23,11 @@ span.steps__subtitle_blue {
 
 }
 .pick {
+    background-color: var(--steps-background-color);
     display: block;
+    width: 272px; 
+    height: 307px;
+    padding: 0px 15px;
 }
 .steps__icon {
     height: 50px;
@@ -41,13 +47,31 @@ span.steps__subtitle_blue {
     color: var(--main-white-color);
 
 }
+.specify{
+    background-color: var(--steps-background-color);
+    display: block;
+    width: 272px; 
+    height: 307px;
+    padding: 0px 15px; 
+}
 .specify__subtitle {
     font-family: Rajdhani, sans-serif;
     font-size: 22px;
     color: var(--main-white-color);  
 }
+.vr {
+    background-color: var(--steps-background-color);
+    display: block;
+    width: 272px; 
+    height: 307px;
+    padding: 0px 15px;
+}
 .vr__subtitle {
     font-family: Rajdhani, sans-serif;
     font-size: 22px;
     color: var(--main-white-color);   
+}
+ .earth__icon {
+    width: 885px;
+    height: 315px;
 }
