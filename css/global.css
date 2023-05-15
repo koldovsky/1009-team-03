@@ -9,6 +9,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.container {
+    max-width: 1175px;
+    margin: auto;
+}
+
 :root {
     --main-gray-color: rgba(255, 255, 255, 0.6);
     --header-gradient-blue: rgb(40, 131, 222);
@@ -22,10 +33,9 @@
     --alternative-accent-color: rgb(253, 113, 80);
     --main-dark-shade-color: rgb(18 14 20);
     --steps-background-color: rgb(23, 18, 26);
-}
-
-.container {
-    max-width: 1200px;
-    margin: auto;
+    --map-back-color: rgb(34,34,34);
+    --footer-light-gray-color: rgb(120,120,120);
+    --footer-dark-gray-color:  rgb(65,64,63);
+    --footer-background-color: rgb(18,14,20);
 }
 

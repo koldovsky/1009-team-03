@@ -1,6 +1,10 @@
-.steps {
+.steps__container {
     background-color: var(--main-dark-shade-color);
-
+    background-size: cover;
+    display: block;
+    padding-top: 150px;
+    padding-bottom: 75px;
+    min-width: 320px;
 }
 .steps__title {
     font-family: Rajdhani, sans-serif;
@@ -8,8 +12,9 @@
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
+    letter-spacing: 0.5em;
     text-align: center;
-    padding: 60px 0px 75px;
+    padding: 15px 0px;
 }
 .steps__subtitle {
     font-family: Rajdhani, sans-serif;
@@ -17,24 +22,34 @@
     font-size: 38px;
     font-weight: bold;
     text-align: center;
+    letter-spacing: 0.5em;
+
 }
 span.steps__subtitle_blue {
     color: var(--accent-text-color);
 
 }
+ .steps__cards {
+    padding: 15px;
+ }
 .pick__cards {
     background-color: var(--steps-background-color);
     display: block;
-    width: 272px; 
-    height: 307px;
-    padding: 0px 15px;
-    margin: 15px 15px;
+    width: 100%; 
+    height: 249px;
+    padding: 33px 31px;
+    margin: 15px auto;
 }
 .steps__icon {
     height: 50px;
     width: 50px;
     object-fit: cover;
     object-position: right;
+    padding: 5px;
+}
+.divider-steps {
+    max-width: 50px;
+    max-height: 50px;
 }
 .pick__subtitle {
     font-family: Rajdhani, sans-serif;
@@ -46,15 +61,16 @@ span.steps__subtitle_blue {
     font-family: Roboto, sans-serif;
     font-size: 16px;
     color: var(--main-white-color);
+    opacity: 0.5;
 
 }
 .specify__cards {
     background-color: var(--steps-background-color);
     display: block;
-    width: 272px; 
-    height: 307px;
-    padding: 0px 15px;
-    margin: 15px 15px; 
+    width: 100%; 
+    height: 249px;
+    padding: 33px 31px;
+    margin: 15px auto;
 }
 .specify__subtitle {
     font-family: Rajdhani, sans-serif;
@@ -64,10 +80,10 @@ span.steps__subtitle_blue {
 .vr__cards {
     background-color: var(--steps-background-color);
     display: block;
-    width: 272px; 
-    height: 307px;
-    padding: 0px 15px;
-    margin: 15px 15px;
+    width: 100%; 
+    height: 249px;
+    padding: 33px 31px;
+    margin: 15px auto;
 }
 .vr__subtitle {
     font-family: Rajdhani, sans-serif;
@@ -75,6 +91,21 @@ span.steps__subtitle_blue {
     color: var(--main-white-color);   
 }
  .earth__icon {
-    width: 320px;
-    height: 230px;
+    width: 100%;
+    margin: auto;
 }
+@media (min-width: 640px) {
+    .steps__cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+  }
+  
+  @media (min-width: 920px) {
+    .steps__cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20px;
+    }
+  }
