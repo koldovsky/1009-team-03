@@ -18,7 +18,7 @@
 .header__logo-link {
     width: 211px;
     height: auto;
-    margin-right: 200px;
+    margin-right: 120px;
 }
 
 .header__menu-list {
@@ -152,6 +152,14 @@
 }
 
 
+@media(max-width: 1070px){
+    .header__nav_socials{
+        padding-top: 25px;
+        padding-right: 100px;
+    } 
+
+}
+    
 
 @media (min-width: 990px) {
     .header__burger-menu {
@@ -165,6 +173,8 @@
     }
 
     .header__nav_socials {
+        width: 108px;
+        height: 36px;
         list-style-type: none;
         display: flex;
         justify-content: flex-end;
