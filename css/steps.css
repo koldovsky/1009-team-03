@@ -5,8 +5,6 @@
     padding-top: 150px;
     padding-bottom: 75px;
     min-width: 320px;
-
-
 }
 .steps__title {
     font-family: Rajdhani, sans-serif;
@@ -33,14 +31,14 @@ span.steps__subtitle_blue {
 }
  .steps__cards {
     padding: 15px;
-}
+ }
 .pick__cards {
     background-color: var(--steps-background-color);
     display: block;
     width: 100%; 
     height: 249px;
-    padding: 33px 31px 33px 31px;
-    margin: 15px auto 15px auto;
+    padding: 33px 31px;
+    margin: 15px auto;
 }
 .steps__icon {
     height: 50px;
@@ -48,6 +46,10 @@ span.steps__subtitle_blue {
     object-fit: cover;
     object-position: right;
     padding: 5px;
+}
+.divider-steps {
+    max-width: 50px;
+    max-height: 50px;
 }
 .pick__subtitle {
     font-family: Rajdhani, sans-serif;
@@ -67,8 +69,8 @@ span.steps__subtitle_blue {
     display: block;
     width: 100%; 
     height: 249px;
-    padding: 33px 31px 33px 31px;
-    margin: 15px auto 15px auto;
+    padding: 33px 31px;
+    margin: 15px auto;
 }
 .specify__subtitle {
     font-family: Rajdhani, sans-serif;
@@ -80,8 +82,8 @@ span.steps__subtitle_blue {
     display: block;
     width: 100%; 
     height: 249px;
-    padding: 33px 31px 33px 31px;
-    margin: 15px auto 15px auto;
+    padding: 33px 31px;
+    margin: 15px auto;
 }
 .vr__subtitle {
     font-family: Rajdhani, sans-serif;
