@@ -5,24 +5,21 @@
     background-size: cover;
 }
 
-.header__logo-container {
-    flex: 1;
-    margin-top: 20px;
+.header__nav{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header__logo-link {
-    display: block;
-    height: 74px;
-    width: 211px;
-
+    width: 120px;
+    height: auto;
 }
 
-.logo_img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: right;
-}
+
 
 
 .header-top {

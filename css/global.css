@@ -9,6 +9,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.container {
+    max-width: 1175px;
+    margin: auto;
+}
+
 :root {
     --main-gray-color: rgba(255, 255, 255, 0.6);
     --header-gradient-blue: rgb(40, 131, 222);
@@ -24,8 +35,8 @@
     --steps-background-color: rgb(23, 18, 26);
 }
 
-.container {
-    max-width: 1200px;
-    margin: auto;
+@media (min-width: 1175px) {
+    .container {
+        padding: 0;
+    }
 }
-
