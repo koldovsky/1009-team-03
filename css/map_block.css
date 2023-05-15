@@ -4,7 +4,7 @@
 
 .map_block--container {
     margin-top: 50px;
-    width: 370px;
+    max-width: 370px;
     min-height: 438px;
     background-color: white;
     margin-left: 70rem;
