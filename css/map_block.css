@@ -3,12 +3,14 @@
 }
 
 .map_block--container {
+    margin-top: 50px;
     width: 370px;
     min-height: 438px;
     background-color: white;
     margin-left: 70rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     padding: 10px;
+    display: block;
     
 }
 
@@ -34,6 +36,13 @@
     font-size: 50px;
     font-family: "Rajdhani", sans-serif;
     text-align: center;
+    font-weight: bold;
+}
 
+#map_block--vr_shows{
+    text-align:center ;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 26px;
+    font-weight: bold;
 }
 
