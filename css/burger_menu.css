@@ -1,9 +1,9 @@
 label.hamburger {
     display: block;
-    background: var(--nothing-color);
     width: 24px;
     height: 16px;
     position: relative;
+    background: var(--nothing-color);
     cursor: pointer;
 }
 
