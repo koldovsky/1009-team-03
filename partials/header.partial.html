@@ -1,8 +1,10 @@
 <header class="header">
     <div class="header-top">
         <nav class="header__nav container">
-            <div class="header__logo-container"><a class="header__logo-link" href="#"><img class="logo_img"
-                        width="211px" src="img/header_logo.png" alt="footer logo"></a></div>
+            <a class="header__logo-link" href="#"><img class="logo_img" src="img/header_logo.png" alt="footer logo"></a>
+            <div class="burger_menu-btn">
+                <input type="checkbox" id="hamburger">
+            </div>
             <ul class="header__menu-list">
                 <li class="header__menu--item">
                     <a class="menu_link" href="#">About us</a>
@@ -73,41 +75,43 @@
                                 style="color:#120e14;fill:#120e14"></path>
                         </svg>
                     </a>
-                    <div class="burger_menu-btn">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
+            </div>
         </nav>
-    </div>
-    <div class="container">
-        <div class="header__hero">
-            <h1>Asteroid</h1>
-            <p>Amazing VR shows taking you to the farthest corners of the Universe.</p>
-        </div>
-        <div class="header__buttons">
-            <a class="header__buttons--send_request" href="#">SEND A REQUEST</a>
-            <div class="header__buttons--our_movies">
-                <a class="header__buttons--our_movies_icon" href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
-                        x="0px" y="0px" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve"
-                        style="max-width:24" height="24" class="icon">
-                        <g fill="currentColor">
-                            <path fill="currentColor"
-                                d="M23.6,14.493c-0.614-0.616-1.254-0.925-1.9-0.925c-0.995,0-2.002,0.786-2.002,2.541v17.46   c0,1.757,1.003,2.539,2.002,2.539c0.646,0,1.286-0.311,1.9-0.925l7.695-7.695c1.463-1.46,1.463-3.838,0-5.302L23.6,14.493z    M29.525,25.724l-7.329,7.329V16.628l7.329,7.329C30.016,24.443,30.016,25.235,29.525,25.724z">
-                            </path>
-                            <path fill="currentColor"
-                                d="M33.014,5.224h-17.05c-6.203,0-11.251,5.048-11.251,11.253v17.048c0,6.205,5.048,11.252,11.251,11.252   h17.05c6.203,0,11.252-5.047,11.252-11.252V16.477C44.266,10.272,39.219,5.224,33.014,5.224z M41.768,33.529   c0,4.826-3.928,8.753-8.754,8.753h-17.05c-4.826,0-8.752-3.927-8.752-8.753v-17.05c0-4.826,3.926-8.752,8.752-8.752h17.05   c4.826,0,8.754,3.926,8.754,8.752V33.529z">
-                            </path>
-                        </g>
-                    </svg></a>
-                <a href="#">OUR MOVIES</a>
+        <div class="container">
+            <div class="header__hero">
+                <h1>Asteroid</h1>
+                <p>Amazing VR shows taking you to the farthest corners of the Universe.</p>
+            </div>
+            <div class="header__buttons">
+                <a class="header__buttons--send_request" href="#">SEND A REQUEST</a>
+                <div class="header__buttons--our_movies">
+                    <a data-component="hash-link"
+                        class="w-btns-group__item button_2W3 button--left-icon_15k w-link ui-button ui-button--link-dark ui-button--size-md button--with-icon_3MG button--font-weight-bold_1Nu"
+                        data-hydrate="{&quot;to&quot;:&quot;#shows&quot;}" href="/#shows"><span
+                            class="button__border_1J- ui-button__border"></span><span class="button__inner_2of"><span
+                                class="button__icon_286 button__icon--left_17Q" aria-hidden="true"><span
+                                    class="iconElement_3D2 ui-icon_2oI w-icon ui-icon--light_HAb"
+                                    style="color:inherit"><span class="iconElement__inner_2iN"><svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px"
+                                            viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve"
+                                            style=" width:24px;max-width:100%;padding-top: 20px; " height="100%">
+                                            <g style="" fill="currentColor">
+                                                <path fill="currentColor"
+                                                    d="M23.6,14.493c-0.614-0.616-1.254-0.925-1.9-0.925c-0.995,0-2.002,0.786-2.002,2.541v17.46   c0,1.757,1.003,2.539,2.002,2.539c0.646,0,1.286-0.311,1.9-0.925l7.695-7.695c1.463-1.46,1.463-3.838,0-5.302L23.6,14.493z    M29.525,25.724l-7.329,7.329V16.628l7.329,7.329C30.016,24.443,30.016,25.235,29.525,25.724z"
+                                                    style=""></path>
+                                                <path fill="currentColor"
+                                                    d="M33.014,5.224h-17.05c-6.203,0-11.251,5.048-11.251,11.253v17.048c0,6.205,5.048,11.252,11.251,11.252   h17.05c6.203,0,11.252-5.047,11.252-11.252V16.477C44.266,10.272,39.219,5.224,33.014,5.224z M41.768,33.529   c0,4.826-3.928,8.753-8.754,8.753h-17.05c-4.826,0-8.752-3.927-8.752-8.753v-17.05c0-4.826,3.926-8.752,8.752-8.752h17.05   c4.826,0,8.754,3.926,8.754,8.752V33.529z"
+                                                    style=""></path>
+                                            </g>
+                                        </svg></span></span></span><span class="button__content_1_I">our
+                                movies</span></span></a>
+                </div>
+
             </div>
 
+            </a>
         </div>
-
-        </a>
-    </div>
     </div>
 
 </header>
