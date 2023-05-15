@@ -35,8 +35,3 @@ img {
     --steps-background-color: rgb(23, 18, 26);
 }
 
-@media (min-width: 1175px) {
-    .container {
-        padding: 0;
-    }
-}
