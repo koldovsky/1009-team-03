@@ -1,6 +1,60 @@
 .how-work {
-background-image: url("../img/how-work-background.webp");
-background-size: cover;
-color:aliceblue;
-display: flex;
+    background-image: url("../img/how-work-background.webp");
+    background-size: cover;
+    font-family: "Roboto";
+    color: var(--main-white-color);
+}
+
+.how-work__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 450px;
+}
+
+.how-work__title {
+    color: var(--main-white-color);
+    font-size: 13px;
+    letter-spacing: 5.6px;
+    padding: 10px;
+}
+
+.how-work__second-head {
+    font-family: "Roboto";
+    font-size: 50px;
+    padding: 10px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    align: right;
+}
+
+.how-work__main-text {
+    letter-spacing: 0.48px;
+    max-width: 450px;
+    line-height: 28.8px;
+    text-align: left;
+    padding: 10px;
+}
+
+.try-it__button {
+    color: var(--main-white-color);
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 12px;
+    letter-spacing: 2.4px;
+    border: solid rgb(38, 126, 220) 1px;
+    text-align: center;
+    padding: 19px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin: auto;
+    top: 30px;
+    margin-top: 40px;
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.try-it__button {
+    background-color: var(--accent-main-color);
 }
