@@ -94,3 +94,18 @@ span.steps__subtitle_blue {
     width: 100%;
     margin: auto;
 }
+@media (min-width: 640px) {
+    .steps__cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+  }
+  
+  @media (min-width: 920px) {
+    .steps__cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20px;
+    }
+  }
