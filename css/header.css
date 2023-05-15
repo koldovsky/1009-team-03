@@ -80,14 +80,13 @@
 }
 
 .header__buttons {
-    width: 357px;
-    height: 72px;
     margin: 70px auto 0 auto;
     display: flex;
-    position: relative;
+    flex-wrap: wrap;
     justify-content: center;
-
 }
+
+
 
 .header__buttons--send_request {
     font-family: "Roboto";
@@ -99,7 +98,7 @@
     text-transform: uppercase;
     color: var(--main-white-color);
     padding: 18px 30px;
-    margin: 10px auto;
+    margin: 10px;
     background: linear-gradient(var(--header-gradient-blue), var(--header-gradient-light-blue));
     border-radius: 8px;
     width: 190px;
