@@ -1,23 +1,24 @@
 .about {
     background-image: url("../img/vr_dude.png");
-    background-size:cover ;
-    font-family: "Roboto",sans-serif;
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
     color: var(--main-white-color);
     display: flex;
     flex-direction: column;
     background-position: right;
-    align-items:flex-end ;
+    align-items: flex-end;
     flex-wrap: wrap;
 }
 
-.about__top-head  {
-    font-family: "Rajdhani",sans-serif;
+.about__top-head {
+    font-family: "Rajdhani", sans-serif;
     font-size: 14px;
     letter-spacing: 5.6px;
     padding: 10px;
 }
+
 .about__divider {
-    padding: 10px;   
+    padding: 10px;
 }
 
 .about__second-head {
@@ -26,6 +27,7 @@
     padding: 10px;
     margin-bottom: 40px;
 }
+
 .about__paragraph {
     letter-spacing: 0.48px;
     max-width: 450px;
@@ -41,17 +43,20 @@
 .about__second-highlighted-text {
     color: var(--alternative-accent-color);
 }
-.about__container{
+
+.about__container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-width: 450px; 
+    max-width: 450px;
 }
+
 .about__container-for-learn-more {
     margin-top: 40px;
     display: flex;
     margin-bottom: 20px;
 }
+
 .about__learn-more {
     color: var(--main-white-color);
     text-decoration: none;
@@ -64,8 +69,10 @@
     border-radius: 10px;
     margin-top: 30px;
     margin: auto;
-    top: 30px 
+    top: 30px
 }
+
 .about__learn-more:hover {
     background-color: var(--accent-text-color);
+    color: var(--main-white-color);
 }
