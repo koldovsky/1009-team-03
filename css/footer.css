@@ -1,5 +1,5 @@
 .footer {
-    background-color: #120e14;
+    background-color: var(--footer-background-color);
     max-width: 100%;
 }
 
@@ -17,7 +17,7 @@
 
 .footer__info {
     font-family: "Roboto";
-    color: white;
+    color: var(--main-white-color);
 }
 
 .footer__info--list {
@@ -33,16 +33,21 @@
     margin-right: 30px;
 }
 
-.footer__follow--us--socials {
-    margin: 1400px;
-    font-family: "Roboto";
+.footer__follow--us {
+    margin-left: 1400px;
     font-size: 19px;
+    font-family:"Roboto";
+    font-weight: bold;
+    color: var(--main-white-color);
+    justify-content: flex-end;
 }
+
+
 
 .footer__team {
     margin-left: 300px;
     margin-bottom: -15px;
-    color: rgb(120,120,120);
+    color: var(--footer-light-gray-color);
     font-family: "Roboto";
     font-size: 14px;
     
@@ -52,7 +57,7 @@
     margin-left: 300px;
     margin-right: 300px;
     height: 1px;
-    background-color: #41403f;
+    background-color: var(--footer-dark-gray-color);
     border: none;
 }
 
@@ -61,7 +66,7 @@
     vertical-align: middle;
     margin-left: 1430px;
     margin-bottom: 15px;
-    color: rgb(120,120,120);
+    color: var(--footer-light-gray-color);
     font-family: "Roboto";
     font-size: 14px;
 }
@@ -71,10 +76,21 @@ a:link {
 }
 
 a {
-    color: white;
+    color: var(--main-white-color);
   }
 
 a:hover {
-    color:#0287fb;
+    color: var(--header-blue-color);
 }
 
+.facebookicon:hover path {
+    color: var(--header-blue-color);
+  }
+
+.instagramicon:hover path {
+    fill: var(--header-blue-color);
+  }
+
+.youtubeicon:hover path {
+    fill: var(--header-blue-color);
+}
