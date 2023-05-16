@@ -1,0 +1,114 @@
+.numbers__title {
+    font-family: "Rajdhani", sans-serif;
+    font-size: 14px;
+    letter-spacing: 5.6px;
+    padding: 10px;
+    color: var(--main-white-color);
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.numbers__divider {
+    color: var(--main-white-color);
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.numbers__second-title {
+    font-family: "Rajdhani", sans-serif;
+    font-size: 50px;
+    padding: 10px;
+    margin-bottom: 40px;
+    color: var(--main-white-color);
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.numbers__container-for-pictures {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 30px;
+}
+
+.numbers__movies {
+    background-image: url("../img/planet_image.webp");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.numbers__numbers {
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    padding: 10px;
+    color: var(--main-white-color);
+    display: block;
+}
+
+.numbers__text {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    letter-spacing: 5.6px;
+    padding: 10px;
+    color: var(--main-white-color);
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.numbers__shows {
+    background-image: url("../img/asteroid_image.webp");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.numbers__customers {
+    background-image: url("../img/astronaut_image.webp");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+@media (min-width: 770px) {
+    .numbers__container-for-pictures {
+        flex-direction: row;
+    }
+
+    .numbers__movies {
+        width: 33%;
+    }
+
+    .numbers__shows {
+        width: 33%;
+    }
+
+    .numbers__customers {
+        width: 33%;
+    }
+}
+
+.numbers__gradient {
+    height: 70px;
+
+    background: linear-gradient(180deg, rgb(19, 14, 20), rgb(13, 6, 14));
+}
