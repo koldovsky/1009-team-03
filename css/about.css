@@ -48,7 +48,8 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-width: 450px;
+    max-width: 40%;
+    margin-right: 70px;
 }
 
 .about__container-for-learn-more {
@@ -75,4 +76,12 @@
 .about__learn-more:hover {
     background-color: var(--accent-text-color);
     color: var(--main-white-color);
+}
+
+@media (max-width:770px) {
+    .about__container {
+        max-width: 90%;
+        margin-right: 10px;
+    }
+
 }
