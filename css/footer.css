@@ -83,10 +83,10 @@ a:hover {
     color: var(--header-blue-color);
 }
 
-.facebookicon:hover path {
-    color: var(--header-blue-color);
-  }
-
+.facebookicon:hover .logo_2gS {
+    color: rgba(0,0,0,0);
+    fill: currentColor
+}
 .instagramicon:hover path {
     fill: var(--header-blue-color);
   }
