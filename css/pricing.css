@@ -22,12 +22,6 @@
   text-transform: uppercase;
   letter-spacing: 0.5em;
   text-align: center;
-<<<<<<< Updated upstream
-  padding: 10px;}
-
-.pricing-text
-{
-=======
   padding: 10px;
 }
 .divider__box {
@@ -39,7 +33,6 @@
   margin-right: auto;
 }
 .pricing__text {
->>>>>>> Stashed changes
   font-family: "Rajdhani", sans-serif;
   font-size: 50px;
   text-align: center;
@@ -49,11 +42,6 @@
 }
 .plan__list {
   color: var(--main-white-color);
-<<<<<<< Updated upstream
-}
-.product-card {
-  padding: 10px;
-=======
   padding: 15px 40px 15px 40px;
   display: grid;
   justify-content: center;
@@ -72,7 +60,6 @@
   font-size: 26px;
   font-weight: bolder;
   text-align: center;
->>>>>>> Stashed changes
 }
 
 .plan-select__buttons {
