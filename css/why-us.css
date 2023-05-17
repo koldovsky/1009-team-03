@@ -1,0 +1,136 @@
+.why-us {
+    background-image: url("../img/background_star.webp");
+    background-attachment: fixed;
+    background-size: cover;
+    color: var(--main-white-color);
+    font-family: "Roboto", sans-serif;
+}
+
+.why-us__container {
+    padding-bottom: 100px;
+    padding-left: 80px;
+    max-width: 900px;
+}
+
+.why-us__title {
+    font-family: "Rajdhani", sans-serif;
+    font-size: 14px;
+    letter-spacing: 5.6px;
+    padding: 10px;
+    color: var(--main-white-color);
+    padding-top: 70px;
+}
+
+.why-us__divider {
+    color: var(--main-white-color);
+    margin-left: 10px;
+}
+
+.why-us__second-title {
+    font-family: "Rajdhani", sans-serif;
+    font-size: 50px;
+    padding: 10px;
+    color: var(--main-white-color);
+}
+
+.why-us__highlighted-text {
+    color: var(--accent-text-color);
+}
+
+.why-us__cards {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    margin-top: 50px;
+}
+
+.why-us__card {
+    max-width: 200px;
+    padding: 20px;
+}
+
+.why-us__icon {
+    height: 50px;
+    width: 50px;
+}
+
+.why-us__cards-divider {
+    color: var(--gray-text-color);
+    padding: 10px;
+}
+
+.why-us__card-title {
+    font-size: 22px;
+    padding-top: 15px;
+}
+
+
+.why-us__card-text {
+    font-size: 14px;
+    color: var(--gray-text-color);
+    padding-top: 10px;
+    line-height: 23.66px;
+}
+
+.why-us__second-title {
+    font-size: 38px;
+    font-family: "Rajdhani", sans-serif;
+    padding: 10 px;
+    margin-top: 30px;
+}
+
+.why-us__paragraph {
+    font-size: 18px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+.why-us__second-highlighed-text {
+    color: var(--alternative-accent-color)
+}
+
+
+.why-us__button {
+    padding-top: 17px;
+    padding-bottom: 15px;
+    border: 1px solid var(--accent-text-color);
+    border-radius: 5px;
+    margin-top: 60px;
+    display: block;
+    color: var(--main-white-color);
+    font-size: 12px;
+    text-align: center;
+    width: 180px;
+    height: 52px;
+    background: linear-gradient(100deg, var(--button-gradient-left), var(--button-gradient-left));
+    margin-left: 10px;
+    letter-spacing: 2.4px;
+    font-weight: 700;
+}
+
+@media (min-width: 650px) {
+    .why-us__cards {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .why-us__icon {
+        height: 80px;
+        width: 80px;
+    }
+}
+
+@media (min-width: 850px) {
+    .why-us__cards {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .why-us__card {
+        max-width: 300px;
+    }
+}
+
+.why-us__button:hover {
+    background: var(--accent-text-color);
+    color: var(--main-white-color)
+}
