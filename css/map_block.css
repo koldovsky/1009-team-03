@@ -3,14 +3,15 @@
 }
 
 .map_block--container {
+    display: block;
     margin-top: 50px;
-    width: 370px;
-    min-height: 438px;
+    max-width: 370px;
+    max-height: 438px;
     background-color: white;
-    margin-left: 70rem;
+    margin-left: 40%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     padding: 10px;
-    display: block;
+    
     
 }
 
@@ -26,7 +27,7 @@
 
 .map_block--container-line {
     margin-top: 20px;
-    margin-left: 165px;
+    margin-left: 47%;
     width: 20px;
     height: 2px;
     background-color: rgb(127, 124, 128);
