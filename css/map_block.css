@@ -1,5 +1,7 @@
 .map_block {
     min-height: 760px;
+    display: flex;
+    justify-content: center;
 }
 
 .map_block--container {
@@ -8,7 +10,7 @@
     max-width: 370px;
     max-height: 438px;
     background-color: white;
-    margin-left: 40%;
+    
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     padding: 10px;
     

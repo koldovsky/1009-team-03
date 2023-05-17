@@ -1,21 +1,20 @@
-(function () {
-    const iconBurger = document.querySelector(".header__burger-checkbox");
-    const navigationsBody = document.querySelector(".header__wrapper-menu");
-    iconBurger.addEventListener("click", function (e) {
-        document.body.classList.toggle("lock");
-        iconBurger.classList.toggle("active");
-        navigationsBody.classList.toggle("active");
-    });
+const hamburgerMenu = document.querySelector('.header__hamburger-menu');
+const offScreenMenu = document.querySelector('.header__off-screen-menu');
+hamburgerMenu.addEventListener('click', () => {
+  hamburgerMenu.classList.toggle('active');
+  offScreenMenu.classList.toggle('active');
+  document.body.classList.toggle("lock");
+});
 
-    const navLinks = document.querySelectorAll(".header__burger-menu-link");
-    navLinks.forEach((navLink) => {
-        navLink.addEventListener("click", (_) => {
-            if (iconBurger.classList.contains("active")) {
-                document.body.classList.remove("lock");
-                iconBurger.classList.remove("active");
-                navigationsBody.classList.remove("active");
-            }
-        }
-        );
-    });
-})();
+const navLinks = document.querySelectorAll("#navigation-link");
+navLinks.forEach((navLink) => {
+  navLink.addEventListener("click", (_) => {
+    if (hamburgerMenu.classList.contains("active")) {
+      document.body.classList.remove("lock");
+      hamburgerMenu.classList.remove("active");
+      offScreenMenu.classList.remove("active");
+    }
+  }
+  );
+});
+
