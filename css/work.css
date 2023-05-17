@@ -3,6 +3,7 @@
     background-size: cover;
     font-family: "Roboto";
     color: var(--main-white-color);
+
 }
 
 .how-work__container {
@@ -10,6 +11,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     max-width: 450px;
+    margin-left: 50%;
 }
 
 .how-work__title {
@@ -25,7 +27,7 @@
     padding: 10px;
     margin-bottom: 40px;
     margin-top: 30px;
-    align: right;
+    text-align: left;
 }
 
 .how-work__main-text {
@@ -37,24 +39,25 @@
 }
 
 .try-it__button {
-    color: var(--main-white-color);
-    text-decoration: none;
-    font-family: "Roboto";
-    font-size: 12px;
-    letter-spacing: 2.4px;
-    border: solid rgb(38, 126, 220) 1px;
-    text-align: center;
-    padding: 19px;
-    border-radius: 10px;
-    margin-top: 30px;
-    margin: auto;
-    top: 30px;
-    margin-top: 40px;
-    display: flex;
-    margin-bottom: 20px;
 
+    font-family: "Roboto";
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--main-white-color);
+    margin: 10px auto;
+    background: linear-gradient(var(--header-gradient-blue) var(--header-gradient-light-blue));
+    border-radius: 8px;
+    width: 140px;
+    height: 42px;
+    text-align: center;
+    position: relative;
 }
 
-.try-it__button {
-    background-color: var(--accent-main-color);
+.try-it__button:hover {
+    background: linear-gradient(var(--header-gradient-blue),
+            var(--header-gradient-blue));
+    color: var(--main-white-color);
 }

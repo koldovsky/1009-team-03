@@ -1,8 +1,9 @@
 .gallery__style {
-    background-color: var(--main-white-color);
-   }
-   .gallery__title {
-    font-family: "Rajdhani", sans-serif;
+  background-color: var(--main-white-color);
+}
+
+.gallery__title {
+  font-family: "Rajdhani", sans-serif;
   color: var(--main-dark-shade-color);
   opacity: 0.6;
   font-size: 14px;
@@ -11,26 +12,30 @@
   letter-spacing: 0.5em;
   text-align: center;
   padding: 10px;
-   }
-   .divider__gallery {
-    height: 1.5px;
-    width: 3%;
-    background-color: var(--main-dark-shade-color);
-    opacity: 0.3;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .gallery__text {
-    font-family: "Rajdhani", sans-serif;
-    font-size: 50px;
-    text-align: center;
-  }
-  .highlighted__text {
-    color: var(--accent-text-color);
-  }
-  .gallery__box  {
-   display: flex;
-   flex-direction: column;
-    width: 50%;
-   border-radius: 50%;
- }
+}
+
+.divider__gallery {
+  height: 1.5px;
+  width: 3%;
+  background-color: var(--main-dark-shade-color);
+  opacity: 0.3;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery__text {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+.highlighted__text {
+  color: var(--accent-text-color);
+}
+
+.gallery__box {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border-radius: 50%;
+}
