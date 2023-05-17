@@ -1,5 +1,6 @@
 .map_block {
     min-height: 760px;
+    display: flex;
     justify-content: center;
 }
 
