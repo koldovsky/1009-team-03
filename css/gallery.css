@@ -1,4 +1,9 @@
 .gallery__style {
+  background-color: var(--main-white-color);
+}
+
+.gallery__title {
+  font-family: "Rajdhani", sans-serif;
     background-color: var(--main-white-color);
     display: grid;
    }

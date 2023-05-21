@@ -83,14 +83,57 @@ a:hover {
     color: var(--header-blue-color);
 }
 
-.facebookicon:hover path {
-    color: var(--header-blue-color);
-  }
-
+.facebookicon:hover .logo_2gS {
+    color: rgba(0,0,0,0);
+    fill: currentColor
+}
 .instagramicon:hover path {
     fill: var(--header-blue-color);
   }
 
 .youtubeicon:hover path {
     fill: var(--header-blue-color);
+}
+
+@media (max-width: 852px) {
+    .footer__logo--img {
+        margin-left: 100px;
+        height: 50%;
+        width: 50%;
+    }
+
+    .footer__info--list {
+        display: flex;
+        flex-direction: column;
+        padding-top: 60px;
+        line-height: 40px;
+        align-items: center;
+    }
+
+    .footer__follow--us {
+        margin-left: 42%;
+        font-size: 1.5vh;
+        align-items: center;
+    }
+    
+    .footer__hr {
+        align-items: center;
+        height: 1px;
+        background-color: var(--footer-dark-gray-color);
+        border: none;
+    }
+
+    .footer__team {
+        margin-left: 70%;
+        margin-bottom: -1vh;
+        font-size: 12px;
+        align-items: center;
+    }
+
+    .footer_rights-reserved {
+        margin-left: 10%;
+        margin-bottom: 1vh;
+        font-size: 12px;
+        align-items: center;
+    }
 }

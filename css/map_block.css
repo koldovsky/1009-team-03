@@ -1,20 +1,37 @@
 .map_block {
     min-height: 760px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.block {
+    position: relative;
+}
+
+.map {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
 }
 
 .map_block--container {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
     margin-top: 50px;
-    width: 370px;
-    min-height: 438px;
+    max-width: 370px;
+    max-height: 438px;
     background-color: white;
-    margin-left: 70rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.242);
+    border-radius: 15px;
     padding: 10px;
-    display: block;
-    
+
 }
 
-.map_block--adress {
+.map_block--address {
     font-family: "Rajdhani", sans-serif;
     font-size: 14px;
     text-align: center;
@@ -26,7 +43,7 @@
 
 .map_block--container-line {
     margin-top: 20px;
-    margin-left: 165px;
+    margin-left: 47%;
     width: 20px;
     height: 2px;
     background-color: rgb(127, 124, 128);
@@ -39,10 +56,27 @@
     font-weight: bold;
 }
 
-#map_block--vr_shows{
-    text-align:center ;
+#map_block--vr_shows {
+    text-align: center;
     font-family: "Rajdhani", sans-serif;
     font-size: 26px;
     font-weight: bold;
 }
-
+.map_block--container-adress{
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 16px;
+    color: rgb(127, 124, 128);
+    padding: 10px 50px 10px 50px;
+}
+.map_block--link{
+    padding: 30px;
+    font-size: 16px;
+    font-family: "Roboto";
+    text-decoration: none;
+    color: var(--main-dark-color);
+    text-align: center;
+}
+.map_block--link:hover{
+    color: red;
+}

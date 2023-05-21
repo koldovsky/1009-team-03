@@ -21,6 +21,7 @@ img {
 }
 
 :root {
+    --header-background-color:rgb(18, 14, 20);
     --main-gray-color: rgba(255, 255, 255, 0.6);
     --header-gradient-blue: rgb(40, 131, 222);
     --header-gradient-light-blue: rgb(130, 182, 235);
@@ -37,5 +38,8 @@ img {
     --footer-light-gray-color: rgb(120,120,120);
     --footer-dark-gray-color:  rgb(65,64,63);
     --footer-background-color: rgb(18,14,20);
+    --gray-text-color: #FFFFFF99;
+    --button-gradient-left: rgb(80, 148, 214);
+    --button-gradient-right: rgb(96, 178, 233);
 }
 

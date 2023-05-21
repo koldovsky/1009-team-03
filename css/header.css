@@ -24,7 +24,7 @@
 .header__menu-list {
     display: none;
     list-style-type: none;
-    
+
 }
 
 .menu_link {
@@ -34,7 +34,7 @@
     font-size: 0.938rem;
     border-bottom: 1px solid var(--nothing-color);
     margin: 15px;
-    
+
 
 }
 
@@ -150,15 +150,101 @@
     color: var(--header-blue-color);
 }
 
+.header__wrapper-menu {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: var(--header-background-color);
+    position: fixed;
+    cursor: pointer;
+    text-align: center;
+    top: 115px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
 
-@media(max-width: 1070px){
-    .header__nav_socials{
+.header__burger-list {
+    list-style-type: none;
+}
+
+.header__burger-menu-link {
+    font-family: "Roboto";
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--main-white-color);
+    font-weight: bold;
+}
+
+.header__burger-socials--link{
+    margin: 6px;
+}
+
+.header__burger-item {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: var(--main-white-color);
+}
+
+
+label.hamburger {
+    display: block;
+    width: 24px;
+    height: 16px;
+    cursor: pointer;
+    position: relative;
+}
+
+input#hamburger {
+    display: none;
+}
+
+.header__burger-line {
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    background: var(--main-white-color);
+    transition: 0.2s;
+}
+
+.header__burger-line:nth-child(1) {
+    top: 1px;
+}
+
+.header__burger-line:nth-child(2) {
+    top: 7px;
+}
+
+.header__burger-line:nth-child(3) {
+    top: 13px;
+}
+
+#hamburger:checked+.hamburger .header__burger-line:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+}
+
+#hamburger:checked+.hamburger .header__burger-line:nth-child(2) {
+    opacity: 0;
+}
+
+#hamburger:checked+.hamburger .header__burger-line:nth-child(3) {
+    transform: translateY(-5px) rotate(-45deg);
+}
+
+.header__burger-menu input[type="checkbox"]:checked~.header__wrapper-menu {
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width: 1070px) {
+    .header__nav_socials {
         padding-top: 25px;
         padding-right: 100px;
-    } 
+    }
 
 }
-    
+
 
 @media (min-width: 990px) {
     .header__burger-menu {
@@ -178,6 +264,7 @@
         display: flex;
         justify-content: flex-end;
     }
+
     .header__nav_socials--link {
         margin: 8px;
         display: flex;
