@@ -23,6 +23,7 @@
   letter-spacing: 0.5em;
   text-align: center;
   padding: 10px;
+  opacity: 0.6;
 }
 .divider__box {
   height: 1.5px;
@@ -36,14 +37,16 @@
   font-family: "Rajdhani", sans-serif;
   font-size: 50px;
   text-align: center;
+  font-weight: bolder;
 }
 .highlighted-text 
 {color: var(--accent-text-color);
 }
-.plan__list {
+.pricing__list {
   color: var(--main-white-color);
-  padding: 15px 40px 15px 40px;
-  display: grid;
+  padding-left: 32px;
+  padding-right: 32px;
+  display: block;
   justify-content: center;
 }
 .pricing__advantares {
@@ -54,6 +57,24 @@
 .product-card {
   border-radius: 2%;
   text-align: center;
+  color: var(--main-white-color);
+}
+.product-card .pricing__value{
+  align-items: center;
+}
+.pricing__list ul 
+{margin-top: 30px;
+  list-style-type: none;
+  color: var(--main-gray-color);
+}
+.pricing__value {
+  background-image: url(../img/circle.svg);
+  align-self: center;
+  background-repeat: no-repeat;
+  height: 140px;
+  font-size: 22px;
+  font-weight: bold;
+  color: var(--main-dark-color);
 }
 .pricing__name {
   font-family: "Rajdhani", sans-serif;
@@ -89,22 +110,19 @@
   color: var(--main-white-color);
 }
 
-@media (min-width: 320px) {
+@media (min-width: 640px) {
   .pricing__list {
-    grid-template-rows: 1fr 1fr 1fr;
+    display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
   }
 }
 
 @media (min-width: 960px) {
   .pricing__list {
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: unset;
-  }
-}
-
-@media (min-width: 1200px) {
-  .pricing__list {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
    
   }
 }
