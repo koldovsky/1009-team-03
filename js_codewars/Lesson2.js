@@ -19,12 +19,12 @@ function DNAtoRNA(dna) {
 // Find Maximum and Minimum Values of a List
 // https://www.codewars.com/kata/577a98a6ae28071780000989/train/javascript
 
-var min = function (list) {
-    return Math.min(list);
+const min = function (list) {
+    return Math.min(...list);
 }
 
-var max = function (list) {
-    return Math.max(list);
+const max = function (list) {
+    return Math.max(...list);
 }
 
 // Smallest value of an array
