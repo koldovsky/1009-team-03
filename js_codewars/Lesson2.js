@@ -52,8 +52,8 @@ function warnTheSheep(queue) {
 //https://www.codewars.com/kata/57f781872e3d8ca2a000007e/train/javascript
 
 function maps(x) {
-    double_ls = []
-    for (var i of x) {
+    const double_ls = [];
+    for (let i of x) {
         double_ls.push(i * 2);
     }
     return double_ls;
