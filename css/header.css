@@ -140,16 +140,6 @@
     border-bottom: 1px solid var(--header-blue-color);
 }
 
-.icon {
-    margin-top: 20px;
-    margin-right: 5px;
-    color: var(--main-white-color);
-}
-
-.icon:hover {
-    color: var(--header-blue-color);
-}
-
 .header__wrapper-menu {
     display: none;
     width: 100%;
@@ -188,55 +178,6 @@
 }
 
 
-label.hamburger {
-    display: block;
-    width: 24px;
-    height: 16px;
-    cursor: pointer;
-    position: relative;
-}
-
-input#hamburger {
-    display: none;
-}
-
-.header__burger-line {
-    height: 2px;
-    width: 100%;
-    position: absolute;
-    background: var(--main-white-color);
-    transition: 0.2s;
-}
-
-.header__burger-line:nth-child(1) {
-    top: 1px;
-}
-
-.header__burger-line:nth-child(2) {
-    top: 7px;
-}
-
-.header__burger-line:nth-child(3) {
-    top: 13px;
-}
-
-#hamburger:checked+.hamburger .header__burger-line:nth-child(1) {
-    transform: translateY(7px) rotate(45deg);
-}
-
-#hamburger:checked+.hamburger .header__burger-line:nth-child(2) {
-    opacity: 0;
-}
-
-#hamburger:checked+.hamburger .header__burger-line:nth-child(3) {
-    transform: translateY(-5px) rotate(-45deg);
-}
-
-.header__burger-menu input[type="checkbox"]:checked~.header__wrapper-menu {
-    display: flex;
-    justify-content: center;
-}
-
 @media(max-width: 1070px) {
     .header__nav_socials {
         padding-top: 25px;
@@ -245,12 +186,26 @@ input#hamburger {
 
 }
 
-
-@media (min-width: 990px) {
-    .header__burger-menu {
-        display: none;
+@media (max-width: 990px) {
+    .header__navigation-wrapper {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        transition: top 0.3s ease-in;
+        padding: 15px 24px 50px 24px;
+        overflow: hidden;
+        padding-top: 100px;
     }
 
+    .header__navigation-wrapper.active {
+        top: 0;
+    }
+}
+
+@media (min-width: 990px) {
     .header__menu-list {
         display: flex;
         flex-direction: row;
