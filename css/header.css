@@ -1,3 +1,6 @@
+body.lock {
+    overflow: hidden;
+}
 .header {
     background-image: url("../img/header-background.webp");
     background-size: no-repeat;
@@ -100,7 +103,6 @@
     width: 190px;
     height: 52px;
     text-align: center;
-    position: relative;
 }
 
 .header__buttons--send_request:hover {
