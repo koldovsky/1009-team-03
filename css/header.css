@@ -19,6 +19,7 @@
     width: 211px;
     height: auto;
     margin-right: 120px;
+    z-index: 1;
 }
 
 .header__menu-list {
@@ -74,11 +75,6 @@
 }
 
 
-
-.burger_menu-btn {
-    display: none;
-}
-
 .header__buttons {
     margin: 70px auto 0 auto;
     display: flex;
@@ -105,7 +101,6 @@
     height: 52px;
     text-align: center;
     position: relative;
-
 }
 
 .header__buttons--send_request:hover {
@@ -140,42 +135,8 @@
     border-bottom: 1px solid var(--header-blue-color);
 }
 
-.header__wrapper-menu {
-    display: none;
-    width: 100%;
-    height: 100%;
-    background-color: var(--header-background-color);
-    position: fixed;
-    cursor: pointer;
-    text-align: center;
-    top: 115px;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: 1;
-}
 
-.header__burger-list {
-    list-style-type: none;
-}
 
-.header__burger-menu-link {
-    font-family: "Roboto";
-    text-decoration: none;
-    font-size: 16px;
-    color: var(--main-white-color);
-    font-weight: bold;
-}
-
-.header__burger-socials--link{
-    margin: 6px;
-}
-
-.header__burger-item {
-    font-size: 16px;
-    margin-bottom: 20px;
-    color: var(--main-white-color);
-}
 
 
 @media(max-width: 1070px) {
@@ -188,12 +149,14 @@
 
 @media (max-width: 990px) {
     .header__navigation-wrapper {
+        display: flex;
+        justify-content: center;
         position: fixed;
         top: -100%;
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: white;
+        background-color: var(--header-background-color);
         transition: top 0.3s ease-in;
         padding: 15px 24px 50px 24px;
         overflow: hidden;
@@ -203,9 +166,35 @@
     .header__navigation-wrapper.active {
         top: 0;
     }
+
+    .header__burger-list {
+        list-style-type: none;
+    }
+
+    .header__burger-menu-link {
+        font-family: "Roboto";
+        text-decoration: none;
+        font-size: 16px;
+        color: var(--main-white-color);
+        font-weight: bold;
+    }
+
+    .header__burger-socials--link {
+        margin: 6px;
+    }
+
+    .header__burger-item {
+        font-size: 16px;
+        margin-bottom: 20px;
+        color: var(--main-white-color);
+    }
+    
 }
 
 @media (min-width: 990px) {
+    .header__navigation-wrapper{
+        display: none;
+    }
     .header__menu-list {
         display: flex;
         flex-direction: row;

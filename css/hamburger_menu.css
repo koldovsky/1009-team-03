@@ -43,11 +43,11 @@
 
     .header__navigation-hamburger.active::before {
         top: 50%;
-        transform: rotate(-45deg);
+        transform: rotate(45deg);
     }
 
     .header__navigation-hamburger.active::after {
         bottom: 40%;
-        transform: rotate(45deg);
+        transform: rotate(-45deg);
     }
 }
