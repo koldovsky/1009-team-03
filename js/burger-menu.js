@@ -1,5 +1,5 @@
 (function () {
-  const iconBurger = document.querySelector(".header__navigation-hamburger");
+  const iconBurger = document.querySelector(".header__hamburger");
   const navigationsBody = document.querySelector(".header__wrapper");
   iconBurger.addEventListener("click", function (e) {
     document.body.classList.toggle("lock");
