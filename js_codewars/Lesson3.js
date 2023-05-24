@@ -16,8 +16,8 @@ const circleCircumference = circle => 2 * Math.PI * circle.radius;
 //https://www.codewars.com/kata/5722b3f0bd5583cf44001000/train/javascript
 
 function giveMeFive(obj) {
-    var five = [];
-    for (var key in obj) {
+    let five = [];
+    for (const key in obj) {
         if (key.length == 5) five.push(key);
         if (obj[key].length == 5) five.push(obj[key]);
     }
@@ -27,8 +27,8 @@ function giveMeFive(obj) {
 //https://www.codewars.com/kata/understanding-closures-the-basics/train/javascript
 
 function buildFun(n) {
-    var funct_arr = [];
-    for (var i = 0; i < n; i++) {
+    let funct_arr = [];
+    for (let i = 0; i < n; i++) {
         funct_arr.push((function (i) {
             return function () {
                 return i;
