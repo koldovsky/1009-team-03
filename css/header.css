@@ -150,8 +150,9 @@ body.lock {
 }
 
 @media (max-width: 990px) {
-    .header__navigation-wrapper {
+    .header__wrapper {
         display: flex;
+        text-align: center;
         justify-content: center;
         position: fixed;
         top: -100%;
@@ -159,14 +160,13 @@ body.lock {
         width: 100%;
         height: 100%;
         background-color: var(--header-background-color);
-        transition: top 0.3s ease-in;
         padding: 15px 24px 50px 24px;
         overflow: hidden;
         padding-top: 100px;
     }
 
-    .header__navigation-wrapper.active {
-        top: 0;
+    .header__wrapper.active {
+        top: 30px;
     }
 
     .header__burger-list {
@@ -184,7 +184,6 @@ body.lock {
     .header__burger-socials--link {
         margin: 6px;
     }
-
     .header__burger-item {
         font-size: 16px;
         margin-bottom: 20px;
@@ -194,7 +193,7 @@ body.lock {
 }
 
 @media (min-width: 990px) {
-    .header__navigation-wrapper{
+    .header__wrapper{
         display: none;
     }
     .header__menu-list {
