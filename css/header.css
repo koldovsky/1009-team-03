@@ -197,6 +197,7 @@ body.lock {
         display: none;
     }
     .header__menu-list {
+        padding-top: 20px;
         display: flex;
         flex-direction: row;
         align-items: center;
