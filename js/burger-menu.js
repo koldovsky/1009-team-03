@@ -1,5 +1,4 @@
-(function () 
-{
+(function () {
   const Burger = document.querySelector(".header__hamburger");
   const navigation_wrapper = document.querySelector(".header__wrapper");
   Burger.addEventListener("click", function (e) {
@@ -9,8 +8,7 @@
   });
 
   const Link = document.querySelectorAll(".header__burger-menu-link");
-  Link.forEach((navLink) => 
-  {
+  Link.forEach((navLink) => {
     navLink.addEventListener("click", (_) => {
       if (Burger.classList.contains("active")) {
         Burger.classList.remove("active");
