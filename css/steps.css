@@ -15,7 +15,6 @@
     text-transform: uppercase;
     letter-spacing: 0.5em;
     text-align: center;
-    padding: 15px 0px;
 }
 .divider-steps__title {
     color: var(--main-white-color);
