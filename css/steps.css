@@ -17,15 +17,18 @@
     text-align: center;
     padding: 15px 0px;
 }
-
+.divider-steps__title {
+    color: var(--main-white-color);
+    text-align: center;
+    opacity: 0.5;
+    padding: 15px 0px;
+}
 .steps__subtitle {
     font-family: Rajdhani, sans-serif;
     color: var(--main-white-color);
-    font-size: 38px;
+    font-size: 50px;
     font-weight: bold;
     text-align: center;
-    letter-spacing: 0.5em;
-
 }
 
 span.steps__subtitle_blue {
@@ -41,14 +44,14 @@ span.steps__subtitle_blue {
     background-color: var(--steps-background-color);
     display: block;
     width: 100%;
-    height: 249px;
+    height: 100%;
     padding: 25px 20px;
     margin: 15px auto;
 }
 
 .steps__icon {
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
     object-fit: cover;
     object-position: right;
 }
@@ -60,8 +63,9 @@ span.steps__subtitle_blue {
 
 .pick__subtitle {
     font-family: Rajdhani, sans-serif;
-    font-size: 22px;
+    font-size: 26px;
     color: var(--main-white-color);
+    font-weight: bold;
 
 }
 
@@ -77,30 +81,32 @@ span.steps__subtitle_blue {
     background-color: var(--steps-background-color);
     display: block;
     width: 100%;
-    height: 249px;
+    height: 100%;
     padding: 25px 20px;
     margin: 15px auto;
 }
 
 .specify__subtitle {
     font-family: Rajdhani, sans-serif;
-    font-size: 22px;
+    font-size: 26px;
     color: var(--main-white-color);
+    font-weight: bold;
 }
 
 .vr__cards {
     background-color: var(--steps-background-color);
     display: block;
     width: 100%;
-    height: 249px;
+    height: 100%;
     padding: 25px 20px;
     margin: 15px auto;
 }
 
 .vr__subtitle {
     font-family: Rajdhani, sans-serif;
-    font-size: 22px;
+    font-size: 26px;
     color: var(--main-white-color);
+    font-weight: bold;
 }
 
 .earth__icon {
