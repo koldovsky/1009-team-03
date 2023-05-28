@@ -6,6 +6,7 @@
     padding-bottom: 75px;
     min-width: 320px;
 }
+
 .steps__title {
     font-family: Rajdhani, sans-serif;
     color: var(--main-white-color);
@@ -14,49 +15,59 @@
     text-transform: uppercase;
     letter-spacing: 0.5em;
     text-align: center;
+}
+.divider-steps__title {
+    color: var(--main-white-color);
+    text-align: center;
+    opacity: 0.5;
     padding: 15px 0px;
 }
 .steps__subtitle {
     font-family: Rajdhani, sans-serif;
     color: var(--main-white-color);
-    font-size: 38px;
+    font-size: 50px;
     font-weight: bold;
     text-align: center;
-    letter-spacing: 0.5em;
-
 }
+
 span.steps__subtitle_blue {
     color: var(--accent-text-color);
 
 }
- .steps__cards {
+
+.steps__cards {
     padding: 15px;
- }
+}
+
 .pick__cards {
     background-color: var(--steps-background-color);
     display: block;
-    width: 100%; 
-    height: 249px;
-    padding: 33px 31px;
+    width: 100%;
+    height: 100%;
+    padding: 25px 20px;
     margin: 15px auto;
 }
+
 .steps__icon {
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
     object-fit: cover;
     object-position: right;
-    padding: 5px;
 }
+
 .divider-steps {
-    max-width: 50px;
-    max-height: 50px;
+    color: var(--gray-text-color);
+    padding: 10px;
 }
+
 .pick__subtitle {
     font-family: Rajdhani, sans-serif;
-    font-size: 22px;
+    font-size: 26px;
     color: var(--main-white-color);
+    font-weight: bold;
 
 }
+
 .steps__text {
     font-family: Roboto, sans-serif;
     font-size: 16px;
@@ -64,48 +75,56 @@ span.steps__subtitle_blue {
     opacity: 0.5;
 
 }
+
 .specify__cards {
     background-color: var(--steps-background-color);
     display: block;
-    width: 100%; 
-    height: 249px;
-    padding: 33px 31px;
+    width: 100%;
+    height: 100%;
+    padding: 25px 20px;
     margin: 15px auto;
 }
+
 .specify__subtitle {
     font-family: Rajdhani, sans-serif;
-    font-size: 22px;
-    color: var(--main-white-color);  
+    font-size: 26px;
+    color: var(--main-white-color);
+    font-weight: bold;
 }
+
 .vr__cards {
     background-color: var(--steps-background-color);
     display: block;
-    width: 100%; 
-    height: 249px;
-    padding: 33px 31px;
+    width: 100%;
+    height: 100%;
+    padding: 25px 20px;
     margin: 15px auto;
 }
+
 .vr__subtitle {
     font-family: Rajdhani, sans-serif;
-    font-size: 22px;
-    color: var(--main-white-color);   
+    font-size: 26px;
+    color: var(--main-white-color);
+    font-weight: bold;
 }
- .earth__icon {
+
+.earth__icon {
     width: 100%;
     margin: auto;
 }
+
 @media (min-width: 640px) {
     .steps__cards {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
     }
-  }
-  
-  @media (min-width: 920px) {
+}
+
+@media (min-width: 920px) {
     .steps__cards {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      gap: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
     }
-  }
+}

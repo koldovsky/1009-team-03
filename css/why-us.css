@@ -15,6 +15,7 @@
 .why-us__title {
     font-family: "Rajdhani", sans-serif;
     font-size: 14px;
+    font-weight: 700;
     letter-spacing: 5.6px;
     padding: 10px;
     color: var(--main-white-color);
@@ -29,6 +30,7 @@
 .why-us__second-title {
     font-family: "Rajdhani", sans-serif;
     font-size: 50px;
+    font-weight: 700;
     padding: 10px;
     color: var(--main-white-color);
 }

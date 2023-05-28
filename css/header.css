@@ -1,3 +1,7 @@
+body.lock {
+    overflow: hidden;
+}
+
 .header {
     background-image: url("../img/header-background.webp");
     background-size: no-repeat;
@@ -19,6 +23,7 @@
     width: 211px;
     height: auto;
     margin-right: 120px;
+    z-index: 1;
 }
 
 .header__menu-list {
@@ -74,11 +79,6 @@
 }
 
 
-
-.burger_menu-btn {
-    display: none;
-}
-
 .header__buttons {
     margin: 70px auto 0 auto;
     display: flex;
@@ -104,8 +104,6 @@
     width: 190px;
     height: 52px;
     text-align: center;
-    position: relative;
-
 }
 
 .header__buttons--send_request:hover {
@@ -114,128 +112,44 @@
 }
 
 .header__buttons--our_movies {
-    display: inline-block;
-    width: 170px;
-    height: 52px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 170px;
+    min-height: 52px;
     margin-bottom: 20px;
+    background-color: rgb(0, 0, 0, 0);
+    border: 0;
+    border-bottom: 1px solid var(--nothing-color);
+    color: var(--main-white-color);
+
+}
+
+.button-text {
+    padding-left: 5px;
     font-family: "Roboto";
     text-decoration: none;
     font-size: 12px;
     font-weight: 700;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     text-transform: uppercase;
     color: var(--main-white-color);
-    background-color: 0;
-    text-align: center;
-    border-bottom: 1px solid var(--nothing-color);
-    padding-bottom: 5px;
 }
 
-.header__buttons--our_movies span {
-    padding: 2px;
-}
 
-.header__buttons--our_movies span:hover {
+.header__buttons--our_movies:hover>.button-text {
     color: var(--header-blue-color);
     border-bottom: 1px solid var(--header-blue-color);
 }
 
-.icon {
-    margin-top: 20px;
-    margin-right: 5px;
-    color: var(--main-white-color);
-}
-
-.icon:hover {
+.header__buttons--our_movies:hover>.menu-icon {
     color: var(--header-blue-color);
 }
 
-.header__wrapper-menu {
-    display: none;
-    width: 100%;
-    height: 100%;
-    background-color: var(--header-background-color);
-    position: fixed;
-    cursor: pointer;
-    text-align: center;
-    top: 115px;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: 1;
-}
-
-.header__burger-list {
-    list-style-type: none;
-}
-
-.header__burger-menu-link {
-    font-family: "Roboto";
-    text-decoration: none;
-    font-size: 16px;
-    color: var(--main-white-color);
-    font-weight: bold;
-}
-
-.header__burger-socials--link{
-    margin: 6px;
-}
-
-.header__burger-item {
-    font-size: 16px;
-    margin-bottom: 20px;
-    color: var(--main-white-color);
-}
 
 
-label.hamburger {
-    display: block;
-    width: 24px;
-    height: 16px;
-    cursor: pointer;
-    position: relative;
-}
 
-input#hamburger {
-    display: none;
-}
-
-.header__burger-line {
-    height: 2px;
-    width: 100%;
-    position: absolute;
-    background: var(--main-white-color);
-    transition: 0.2s;
-}
-
-.header__burger-line:nth-child(1) {
-    top: 1px;
-}
-
-.header__burger-line:nth-child(2) {
-    top: 7px;
-}
-
-.header__burger-line:nth-child(3) {
-    top: 13px;
-}
-
-#hamburger:checked+.hamburger .header__burger-line:nth-child(1) {
-    transform: translateY(7px) rotate(45deg);
-}
-
-#hamburger:checked+.hamburger .header__burger-line:nth-child(2) {
-    opacity: 0;
-}
-
-#hamburger:checked+.hamburger .header__burger-line:nth-child(3) {
-    transform: translateY(-5px) rotate(-45deg);
-}
-
-.header__burger-menu input[type="checkbox"]:checked~.header__wrapper-menu {
-    display: flex;
-    justify-content: center;
-}
 
 @media(max-width: 1070px) {
     .header__nav_socials {
@@ -245,13 +159,57 @@ input#hamburger {
 
 }
 
+@media (max-width: 990px) {
+    .header__wrapper {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: var(--header-background-color);
+        padding: 15px 24px 50px 24px;
+        overflow: hidden;
+        padding-top: 100px;
+    }
+
+    .header__wrapper.active {
+        top: 30px;
+    }
+
+    .header__burger-list {
+        list-style-type: none;
+    }
+
+    .header__burger-menu-link {
+        font-family: "Roboto";
+        text-decoration: none;
+        font-size: 16px;
+        color: var(--main-white-color);
+        font-weight: bold;
+    }
+
+    .header__burger-socials--link {
+        margin: 6px;
+    }
+
+    .header__burger-item {
+        font-size: 16px;
+        margin-bottom: 20px;
+        color: var(--main-white-color);
+    }
+
+}
 
 @media (min-width: 990px) {
-    .header__burger-menu {
+    .header__wrapper {
         display: none;
     }
 
     .header__menu-list {
+        padding-top: 20px;
         display: flex;
         flex-direction: row;
         align-items: center;
