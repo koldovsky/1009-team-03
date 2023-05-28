@@ -1,9 +1,12 @@
+https://cdn.jsdelivr.net/npm/bootstap.min.css
+
 .pricing__container {
   background-image: url("../img/pricing-background.webp");
-  background-size: cover;
-  padding-top: 140px;
-  padding-bottom: 150px;
-  display: block;
+  padding-top: 115px;
+  padding-bottom: 125px;
+  align-items: center; 
+  justify-content: center;
+  
 }
 .family-plan {
   background-image: url(../img/pricing-plan-background-third.webp);
@@ -43,11 +46,12 @@
 {color: var(--accent-text-color);
 }
 .pricing__list {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
   color: var(--main-white-color);
   padding-left: 32px;
   padding-right: 32px;
-  display: block;
-  justify-content: center;
 }
 .pricing__advantares {
   color: var(--main-white-color);
@@ -55,7 +59,7 @@
   font-size: 16px;
 }
 .product-card {
-  border-radius: 2%;
+  border-radius: 6%;
   text-align: center;
   color: var(--main-white-color);
 }
@@ -74,7 +78,7 @@
   height: 140px;
   font-size: 22px;
   font-weight: bold;
-  color: var(--main-dark-color);
+  color: purple;
 }
 .pricing__name {
   font-family: "Rajdhani", sans-serif;

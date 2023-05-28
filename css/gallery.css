@@ -2,6 +2,7 @@
   background-color: var(--main-white-color);
 }
 .gallery__title {
+  display: grid;
   font-family: "Rajdhani", sans-serif;
   color: var(--main-dark-shade-color);
   opacity: 0.6;
@@ -29,6 +30,10 @@
 .highlighted__text {
   color: var(--accent-text-color);
 }
+.gallery__box {
+  justify-content: space-evenly;
+}
+
 .gallery__row {
   display: flex;
   -ms-flex-wrap: wrap;
@@ -55,4 +60,5 @@
     max-width: 50%;
   }
 }
+
 
