@@ -103,7 +103,7 @@
     text-align: center;
     width: 180px;
     height: 52px;
-    background: linear-gradient(100deg, var(--button-gradient-left), var(--button-gradient-left));
+    background: linear-gradient(100deg, var(--button-gradient-left), var(--button-gradient-right));
     margin-left: 10px;
     letter-spacing: 2.4px;
     font-weight: 700;
