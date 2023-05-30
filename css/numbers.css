@@ -57,6 +57,7 @@
     padding: 10px;
     color: var(--main-white-color);
     display: block;
+    margin-top: 0;
 }
 
 .numbers__text {
