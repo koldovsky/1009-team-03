@@ -41,11 +41,11 @@ prevButton.addEventListener('click', () => {
     }
 });
 
-let autoUpdate = setInterval(moveCarousel, 2000);
+let autoUpdateShowsCarousel = setInterval(moveCarousel, 2000);
 
 caruoselCard.addEventListener('mouseover', () => {
-    clearInterval(autoUpdate)
+    clearInterval(autoUpdateShowsCarousel)
 });
 caruoselCard.addEventListener('mouseout', () => {
-    autoUpdate = setInterval(moveCarousel, 2000)
+    autoUpdateShowsCarousel = setInterval(moveCarousel, 2000)
 });
