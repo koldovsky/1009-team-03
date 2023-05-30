@@ -1,7 +1,7 @@
 const carouselInner = document.querySelector('.shows__carousel-inner');
 const prevButton = document.querySelector('.shows__button--prev');
 const nextButton = document.querySelector('.shows__button--next');
-const caruoselCard = document.querySelector('.shows__carousel')
+const caruoselCard = document.querySelector('.shows__carousel');
 
 let carouselPosition = 0;
 let carouselChange = 0;
@@ -14,7 +14,7 @@ function checkWindowWidth() {
     } else {
         carouselChange = 370;
     }
-}
+};
 
 window.addEventListener('resize', checkWindowWidth);
 
@@ -30,7 +30,7 @@ function moveCarousel() {
     }
 };
 
-nextButton.addEventListener('click', moveCarousel)
+nextButton.addEventListener('click', moveCarousel);
 
 
 prevButton.addEventListener('click', () => {
