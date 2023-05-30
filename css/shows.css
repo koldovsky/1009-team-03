@@ -1,0 +1,258 @@
+.shows {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 835px;
+    background-image: url("../img/shows_background.webp");
+    background-size: cover;
+}
+
+.shows__text-container {
+    margin-top: 100px;
+    margin-left: 10%;
+    font-weight: 700;
+}
+
+.shows__title {
+    font-family: "Rajdhani", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 5.6px;
+    color: var(alternative-dark-text);
+}
+
+.shows__divider {
+    color: var(alternative-dark-text);
+}
+
+.shows__second-title {
+    font-family: "Rajdhani", sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    color: var(--main-dark-color);
+}
+
+.shows__highlighted-text {
+    color: var(--accent-text-color);
+}
+
+.shows__paragraph {
+    font-size: 18px;
+    color: var(--alternative-dark-text);
+    padding: 20px 0;
+    font-family: "Roboto", sans-serif;
+    line-height: 30.6px;
+}
+
+.shows__carousel-container {
+    display: flex;
+    align-items: center;
+    height: 470px;
+    margin-top: 100px;
+}
+
+.shows__carousel {
+    position: relative;
+    width: 240px;
+    overflow: hidden;
+}
+
+.shows__carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.shows__show-title {
+    font-size: 26px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: bold;
+    margin: 35px 75px 30px 30px;
+}
+
+.shows__show-description {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    margin: 40px 15px 15px 30px;
+    line-height: 23.6px;
+}
+
+.shows__carousel-button-container {
+    width: 50px;
+}
+
+.shows__button--prev {
+    height: 40px;
+    width: auto;
+    float: right;
+}
+
+.shows__button--next {
+    height: 40px;
+    width: auto;
+}
+
+.shows__button--prev:hover {
+    height: 50px;
+    width: auto;
+}
+
+.shows__button--next:hover {
+    height: 50px;
+    width: auto;
+}
+
+.shows__book-button {
+    padding-top: 13px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    display: block;
+    color: var(--main-white-color);
+    font-size: 10px;
+    text-align: center;
+    width: 85px;
+    height: 42px;
+    background: linear-gradient(100deg, var(--button-gradient-left), var(--button-gradient-right));
+    margin-left: 35px;
+    letter-spacing: 2.4px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 20px;
+}
+
+.shows__book-button:hover {
+    background: var(--accent-text-color);
+    color: var(--main-white-color)
+}
+
+.shows__card--cosmo-woman {
+    background-image: url("../img/shows_cosmo_woman.webp");
+    background-size: cover;
+    background-position: center;
+    width: 220px;
+    height: 400px;
+    margin-right: 10px;
+    border-radius: 20px;
+    color: var(--main-dark-color);
+}
+
+.shows__card--shuttle {
+    background-image: url("../img/shows_shuttle.webp");
+    background-size: cover;
+    background-position: center;
+    width: 220px;
+    height: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    color: var(--main-white-color);
+}
+
+.shows__card--vr-girl {
+    background-image: url("../img/shows_vr_girl\ .webp");
+    background-size: cover;
+    background-position: center;
+    width: 220px;
+    height: 400px;
+    margin-left: 10px;
+    border-radius: 20px;
+    color: var(--main-dark-color);
+}
+
+.shows__card--cosmos {
+    background-image: url("../img/shows_cosmo.webp");
+    background-size: cover;
+    background-position: center;
+    width: 220px;
+    height: 400px;
+    margin-left: 10px;
+    border-radius: 20px;
+    color: var(--main-white-color);
+}
+
+.shows__cards {
+    display: flex;
+}
+
+.shows__links {
+    display: flex;
+    font-size: 26px;
+    font-family: "Rajdhani", sans-serif;
+
+}
+
+.shows svg {
+    height: 30px;
+    width: auto;
+    margin-left: 15px;
+}
+
+@media (min-width:640px) {
+    .shows__show-description {
+        font-size: 16px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        margin: 40px 120px 15px 30px;
+        line-height: 23.6px;
+    }
+ 
+    .shows__card--cosmo-woman {
+        width: 350px;
+        height: 470px;
+    }
+    .shows__card--shuttle {
+        width: 350px;
+        height: 470px;
+    }
+    .shows__card--cosmos {
+        width: 350px;
+        height: 470px;
+    }
+    .shows__card--vr-girl {
+        width: 350px;
+        height: 470px;
+    }
+    .shows__carousel-button-container {
+        width: 70px;
+    }
+    .shows__button--prev {
+        height: 60px;
+    }
+    
+    .shows__button--next {
+        height: 60px;
+    }
+    
+    .shows__button--prev:hover {
+        height: 70px;
+    }
+    
+    .shows__button--next:hover {
+        height: 70px;
+    }
+}
+
+@media (min-width:900px) {
+    .shows {
+        flex-direction: row;
+    }
+
+    .shows__text-container {
+        max-width: 400px;
+        margin-left: 25px;
+    }
+
+    .shows__carousel-container {
+        margin-left: 20px;
+    }
+
+    .shows__book-button {
+        bottom: 30px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .shows__carousel {
+        width: 720px;
+    }
+}
