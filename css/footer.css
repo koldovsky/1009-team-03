@@ -1,6 +1,7 @@
 .footer {
     background-color: var(--footer-background-color);
     max-width: 100%;
+    padding-top: 90px;
 }
 
 .footer__logo {
