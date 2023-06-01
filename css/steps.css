@@ -16,12 +16,14 @@
     letter-spacing: 0.5em;
     text-align: center;
 }
+
 .divider-steps__title {
     color: var(--main-white-color);
     text-align: center;
     opacity: 0.5;
     font-weight: bold;
 }
+
 .steps__subtitle {
     font-family: Rajdhani, sans-serif;
     color: var(--main-white-color);
@@ -46,6 +48,7 @@ span.steps__subtitle_blue {
     height: 100%;
     padding: 25px 20px;
     margin: 15px auto;
+
 }
 
 .steps__icon {
