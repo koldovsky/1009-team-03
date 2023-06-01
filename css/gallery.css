@@ -33,6 +33,7 @@
 .gallery__box {
   display: flex;
   justify-content: space-evenly;
+  gap: 15px;
 }
 .gallery__column {
   display: flex;
@@ -44,12 +45,6 @@
 
 }
 
-/*@media screen and (max-width: 640px) {
-  .gallery__column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
+img {
+  border-radius: 3%;
 }
-
-

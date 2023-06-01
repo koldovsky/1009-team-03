@@ -10,7 +10,7 @@
 }
 .party__plan {
   background-image: url(../img/pricing-plan-background-second.webp);
-}
+ }
 .group__plan {
   background-image: url(../img/pricing-plan-background-third.webp);
 }
@@ -45,6 +45,9 @@
 .pricing__list {
   display: flex;
   justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
   color: var(--main-white-color);
 }
 .pricing__advantages {
@@ -60,10 +63,8 @@
   color: var(--main-white-color);
   align-items: center;
   gap: 10px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  width: 45%;
-}
+  padding: 10px;
+ }
 .product__card .pricing__value {
   align-items: center;
 }
@@ -71,6 +72,7 @@
   margin-top: 30px;
   list-style-type: none;
   color: var(--main-gray-color);
+  padding-left: 0%;
 }
 .pricing__value {
   text-align: center;
@@ -120,18 +122,29 @@
   color: var(--main-white-color);
 }
 
+
 @media (min-width: 640px) {
   .pricing__list {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
+    align-content: space-around;
+  }
+  .product__card {
+    width:30%;
   }
 }
 
 @media (min-width: 960px) {
   .pricing__list {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
+    align-content: space-around;
+  }
+  .product__card {
+    width: 40%;
   }
 }
