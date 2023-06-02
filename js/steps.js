@@ -1,9 +1,20 @@
-const parentElement = document.querySelector('.steps__subtitle');
+const subtitle = document.getElementById('subtitle');
+const originalText = subtitle.innerHTML;
 
-parentElement.addEventListener('mouseenter', function() {
-    parentElement.style.animationPlayState = 'paused';
+subtitle.addEventListener('mouseenter', () => {
+  subtitle.classList.add('paused-animation');
+  subtitle.style.animationPlayState = 'paused';
 });
 
-parentElement.addEventListener('mouseleave', function() {
-    parentElement.style.animationPlayState = 'running';
+subtitle.addEventListener('mouseleave', () => {
+  subtitle.classList.remove('paused-animation');
+  subtitle.style.animationPlayState = 'running';
+});
+
+subtitle.addEventListener('click', () => {
+  if (subtitle.innerHTML === originalText) {
+    subtitle.innerHTML = 'Try It!';
+  } else {
+    subtitle.innerHTML = originalText;
+  }
 });

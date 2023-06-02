@@ -61,7 +61,10 @@
         transform: translateX(0);
     }
 }
-
+.paused-animation {
+    animation-play-state: paused;
+  }
+  
 span.steps__subtitle_blue {
     color: var(--accent-text-color);
 }
