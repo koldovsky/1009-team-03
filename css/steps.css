@@ -5,6 +5,7 @@
     padding-top: 150px;
     padding-bottom: 75px;
     min-width: 320px;
+    overflow: hidden;
 }
 
 .steps__title {
@@ -30,6 +31,7 @@
     font-size: 50px;
     font-weight: bold;
     text-align: center;
+    animation: moveText 3s infinite;
     cursor: pointer;
     transition: color 0.3s;
     padding: 20px 0px;
