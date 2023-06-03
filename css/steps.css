@@ -33,6 +33,7 @@
     animation: moveText 3s infinite;
     cursor: pointer;
     transition: color 0.3s;
+    padding: 20px 0px;
 }
 
 .steps__subtitle:hover {
@@ -42,29 +43,30 @@
 
 @keyframes moveText {
     0% {
-        transform: translateX(0);
+        transform: translate3d(0, 0, 0);
     }
 
     25% {
-        transform: translateX(50px);
+        transform: translate3d(10px, 0, 0);
     }
 
     50% {
-        transform: translateX(0);
+        transform: translate3d(0, 0, 0);
     }
 
     75% {
-        transform: translateX(-50px);
+        transform: translate3d(-10px, 0, 0);
     }
 
     100% {
-        transform: translateX(0);
+        transform: translate3d(0, 0, 0);
     }
 }
+
 .paused-animation {
     animation-play-state: paused;
-  }
-  
+}
+
 span.steps__subtitle_blue {
     color: var(--accent-text-color);
 }
@@ -168,6 +170,7 @@ span.steps__subtitle_blue {
 }
 
 .earth__icon {
+    min-width: 320px;
     width: 100%;
     margin: auto;
 }
