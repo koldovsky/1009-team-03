@@ -30,7 +30,6 @@
     font-size: 50px;
     font-weight: bold;
     text-align: center;
-    animation: moveText 3s infinite;
     cursor: pointer;
     transition: color 0.3s;
     padding: 20px 0px;
