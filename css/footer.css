@@ -1,140 +1,192 @@
+@media (max-width: 991px) {
 .footer {
-    background-color: var(--footer-background-color);
-    max-width: 100%;
-    padding-top: 90px;
-}
-
-.footer__logo {
+    background-color: #120e14;
+    padding-top: 120px;
+    background-size: cover;
     display: flex;
-    align-items: center;
-}
-
-.footer__logo--img {
-    margin: 100px 300px -10px;
-    max-width: 100%;
-    width: 20%;
-    height: auto;
-}
-
-.footer__info {
-    font-family: "Roboto";
-    color: var(--main-white-color);
-}
-
-.footer__info--list {
-    word-break: nowrap;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
     justify-content: center;
-    margin-top: -30px;
+    font-family:"Roboto", sans-serif;
 }
 
-.footer__info--list--item {
-    margin-right: 30px;
+.footer__main-logo {
+    width:204px;
+    height:auto;
+    cursor: pointer;
 }
 
-.footer__follow--us {
-    margin-left: 1400px;
-    font-size: 19px;
-    font-family:"Roboto";
-    font-weight: bold;
-    color: var(--main-white-color);
-    justify-content: flex-end;
+.footer__main-column {
+    list-style: none;
+    text-align: center;
+    line-height: 2;
+    padding-bottom: 20px;
 }
 
-
-
-.footer__team {
-    margin-left: 300px;
-    margin-bottom: -15px;
-    color: var(--footer-light-gray-color);
-    font-family: "Roboto";
-    font-size: 14px;
-    
-}
-
-.footer__hr {
-    margin-left: 300px;
-    margin-right: 300px;
-    height: 1px;
-    background-color: var(--footer-dark-gray-color);
-    border: none;
-}
-
-.footer_rights-reserved {
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 1430px;
-    margin-bottom: 15px;
-    color: var(--footer-light-gray-color);
-    font-family: "Roboto";
-    font-size: 14px;
-}
-
-a:link {
+.footer__main-list {
     text-decoration: none;
 }
 
-a {
-    color: var(--main-white-color);
-  }
+.footer__main-list-link {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
 
-a:hover {
+.footer__main-list-link:hover {
     color: var(--header-blue-color);
 }
 
-.facebookicon:hover .logo_2gS {
-    color: rgba(0,0,0,0);
-    fill: currentColor
-}
-.instagramicon:hover path {
-    fill: var(--header-blue-color);
-  }
-
-.youtubeicon:hover path {
-    fill: var(--header-blue-color);
+.footer__main-follow {
+    font-size: 18px;
+    color: white;
 }
 
-@media (max-width: 852px) {
-    .footer__logo--img {
-        margin-left: 100px;
-        height: 50%;
-        width: 50%;
-    }
+.footer__main-socials {
+    margin-bottom:-10px;
+    margin-right:-5px;
+    margin-left:-5px;
+    display: inline-block;
+    vertical-align: middle;
+}
 
-    .footer__info--list {
+.footer__main-socials-link {
+    margin-right:5px;
+    margin-left:5px;
+    margin-bottom:10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer__main-socials-link-ref {
+    width:26px;
+    height:26px;
+    text-decoration: none;
+}
+
+.footer__main-socials-link-svg {
+    fill: #ffffff;
+    border-radius:50%;
+    width: 26px;
+    height: 26px;
+}
+
+.footer__main-socials-link-svg:hover {
+    fill: var(--header-blue-color);
+}
+
+.footer__main-hr {
+    color: #ffffff;
+}
+
+.footer_secondary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #120e14;
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #787878;
+}
+
+
+}
+
+
+
+@media (min-width: 992px) {
+    .footer {
+        background-color: #120e14;
+        padding-top: 120px;
+        background-size: cover;
         display: flex;
-        flex-direction: column;
-        padding-top: 60px;
-        line-height: 40px;
-        align-items: center;
-    }
-
-    .footer__follow--us {
-        margin-left: 42%;
-        font-size: 1.5vh;
-        align-items: center;
+        font-family:"Roboto", sans-serif;
     }
     
-    .footer__hr {
-        align-items: center;
-        height: 1px;
-        background-color: var(--footer-dark-gray-color);
-        border: none;
+    .footer__main-logo {
+        width:165.63px;
+        justify-content:start;
+        height:auto;
+        cursor: pointer;
     }
-
-    .footer__team {
-        margin-left: 70%;
-        margin-bottom: -1vh;
-        font-size: 12px;
-        align-items: center;
+    
+    .footer__main-column {
+        list-style: none;
+        text-align: center;
+        line-height: 2;
+        padding-bottom: 20px;
     }
-
-    .footer_rights-reserved {
-        margin-left: 10%;
-        margin-bottom: 1vh;
-        font-size: 12px;
+    
+    .footer__main-list {
+        text-decoration: none;
+    }
+    
+    .footer__main-list-link {
+        font-size: 16px;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .footer__main-list-link:hover {
+        color: var(--header-blue-color);
+    }
+    
+    .footer__main-follow {
+        font-size: 18px;
+        color: white;
+    }
+    
+    .footer__main-socials {
+        margin-bottom:-10px;
+        margin-right:-5px;
+        margin-left:-5px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    .footer__main-socials-link {
+        margin-right:5px;
+        margin-left:5px;
+        margin-bottom:10px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    .footer__main-socials-link-ref {
+        width:26px;
+        height:26px;
+        text-decoration: none;
+    }
+    
+    .footer__main-socials-link-svg {
+        fill: #ffffff;
+        border-radius:50%;
+        width: 26px;
+        height: 26px;
+    }
+    
+    .footer__main-socials-link-svg:hover {
+        fill: var(--header-blue-color);
+    }
+    
+    .footer__main-hr {
+        color: #ffffff;
+    }
+    
+    .footer_secondary {
+        display: flex;
+        flex-direction: column;
         align-items: center;
+        justify-content: center; 
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #120e14;
+        background-size: cover;
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+        color: #787878;
     }
 }
+    
