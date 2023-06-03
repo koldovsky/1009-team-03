@@ -1,6 +1,6 @@
 @media (max-width: 991px) {
 .footer {
-    background-color: #120e14;
+    background-color: var(--header-background-color);
     padding-top: 120px;
     background-size: cover;
     display: flex;
@@ -27,7 +27,7 @@
 
 .footer__main-list-link {
     font-size: 16px;
-    color: white;
+    color: var(--main-white-color);
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@
 
 .footer__main-follow {
     font-size: 18px;
-    color: white;
+    color: var(--main-white-color);
 }
 
 .footer__main-socials {
@@ -63,7 +63,7 @@
 }
 
 .footer__main-socials-link-svg {
-    fill: #ffffff;
+    fill: var(--main-white-color);
     border-radius:50%;
     width: 26px;
     height: 26px;
@@ -74,7 +74,7 @@
 }
 
 .footer__main-hr {
-    color: #ffffff;
+    color: var(--main-white-color);
 }
 
 .footer_secondary {
@@ -84,11 +84,11 @@
     justify-content: center; 
     padding-top: 15px;
     padding-bottom: 15px;
-    background-color: #120e14;
+    background-color: var(--header-background-color);
     background-size: cover;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
-    color: #787878;
+    color: var( --footer-light-gray-color);
 }
 
 
@@ -98,47 +98,62 @@
 
 @media (min-width: 992px) {
     .footer {
-        background-color: #120e14;
-        padding-top: 120px;
-        background-size: cover;
-        display: flex;
+        padding-top: 200px;
+        background-color: var(--header-background-color);
         font-family:"Roboto", sans-serif;
     }
-    
+
     .footer__main-logo {
-        width:165.63px;
-        justify-content:start;
-        height:auto;
-        cursor: pointer;
+        width: 204px;
+        height: auto;
     }
-    
+
     .footer__main-column {
         list-style: none;
         text-align: center;
-        line-height: 2;
-        padding-bottom: 20px;
-    }
     
+    }
+
     .footer__main-list {
         text-decoration: none;
+        display: inline;
     }
-    
+
     .footer__main-list-link {
+        padding: 30px;
         font-size: 16px;
-        color: white;
+        color: var(--main-white-color);
         text-decoration: none;
     }
-    
+
     .footer__main-list-link:hover {
         color: var(--header-blue-color);
     }
-    
+
     .footer__main-follow {
+        display: flex;
+        justify-content: end;
         font-size: 18px;
-        color: white;
+        color: var(--main-white-color);
     }
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     .footer__main-socials {
+        display: flex;
+        justify-content: flex-end;
         margin-bottom:-10px;
         margin-right:-5px;
         margin-left:-5px;
@@ -147,6 +162,8 @@
     }
     
     .footer__main-socials-link {
+        display: flex;
+        justify-content: flex-end;
         margin-right:5px;
         margin-left:5px;
         margin-bottom:10px;
@@ -155,13 +172,17 @@
     }
     
     .footer__main-socials-link-ref {
+        display: flex;
+        justify-content: flex-end;
         width:26px;
         height:26px;
         text-decoration: none;
     }
     
     .footer__main-socials-link-svg {
-        fill: #ffffff;
+        display: flex;
+        justify-content: flex-end;
+        fill: var(--main-white-color);
         border-radius:50%;
         width: 26px;
         height: 26px;
@@ -170,23 +191,19 @@
     .footer__main-socials-link-svg:hover {
         fill: var(--header-blue-color);
     }
-    
+
     .footer__main-hr {
-        color: #ffffff;
+        color: var(--main-white-color);
     }
-    
+
     .footer_secondary {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center; 
-        padding-top: 15px;
-        padding-bottom: 15px;
-        background-color: #120e14;
+        background-color: var(--header-background-color);
         background-size: cover;
         font-family: "Roboto", sans-serif;
         font-size: 14px;
-        color: #787878;
+        color: var( --footer-light-gray-color);
     }
+
+
 }
     
