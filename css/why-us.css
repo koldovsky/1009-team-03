@@ -107,6 +107,7 @@
     margin-left: 10px;
     letter-spacing: 2.4px;
     font-weight: 700;
+    text-decoration: none;
 }
 
 @media (min-width: 650px) {
