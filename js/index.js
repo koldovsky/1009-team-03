@@ -3,4 +3,5 @@ document.addEventListener("partialsLoaded", () => {
     import('./testimonials.js');
     import('./shows.js');
     import('./steps.js');
+    import('./work.js');
   });

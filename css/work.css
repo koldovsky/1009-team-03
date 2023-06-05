@@ -19,7 +19,7 @@
     color: var(--main-white-color);
     font-size: 15px;
     letter-spacing: 4px;
-    padding: 5px;
+    padding: 9gitpx;
 }
 
 .how-work__second-head {
@@ -36,7 +36,22 @@
     max-width: 450px;
     line-height: 28.8px;
     text-align: left;
-    padding: 10px;
+    padding: 9px;
+}
+
+.how-work__list {
+    list-style: none;
+    margin-right: 10%;
+}
+
+.how-work__list li {
+    background-image: url(../img/icons-for-list.svg);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    background-size: 20px 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+    list-style-position: inside;
 }
 
 .try-it__button {
@@ -45,16 +60,18 @@
     text-decoration: none;
     display: block;
     font-size: 12px;
-    font-weight: bold;
     text-transform: uppercase;
     color: var(--main-white-color);
-    margin: 10px auto;
+    margin: 15px auto;
     background: linear-gradient(var(--header-gradient-blue) var(--header-gradient-light-blue));
-    border-radius: 8px;
-    width: 140px;
-    height: 42px;
+    border-radius: 10px;
+    border: 1px solid var(--header-gradient-blue);
+    width: 130px;
+    height: 50px;
     text-align: center;
     position: relative;
+    padding: 15px;
+    margin-top: 40px;
 }
 
 .try-it__button:hover {
@@ -62,6 +79,29 @@
             var(--header-gradient-blue));
     color: var(--main-white-color);
 }
+@keyframes color-highlight {
+    0% {
+      color: var(--header-gradient-blue);
+      text-shadow: none; 
+    }
+    100% {
+      color: black;
+      text-shadow: 0 0 4px var(--header-gradient-light-blue); 
+    }
+  }
+  
+  .highlight {
+    animation-name: color-highlight;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+  }
+  
+  .highlight-2 {
+    text-shadow: 0 0 4px var(--header-gradient-light-blue);
+  }
+  
+
 @media (max-width:700px) {
     .how-work__container {
         max-width: 90%;
