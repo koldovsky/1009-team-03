@@ -1,7 +1,7 @@
 const carouselInner = document.querySelector('.shows__carousel-inner');
 const prevButton = document.querySelector('.shows__button--prev');
 const nextButton = document.querySelector('.shows__button--next');
-const caruoselCard = document.querySelector('.shows__carousel');
+const caruoselArea = document.querySelector('.shows__carousel-container');
 
 let carouselPosition = 0;
 let carouselChange = 0;
@@ -43,9 +43,9 @@ prevButton.addEventListener('click', () => {
 
 let autoUpdateShowsCarousel = setInterval(moveCarousel, 2000);
 
-caruoselCard.addEventListener('mouseover', () => {
+caruoselArea.addEventListener('mouseover', () => {
     clearInterval(autoUpdateShowsCarousel)
 });
-caruoselCard.addEventListener('mouseout', () => {
+caruoselArea.addEventListener('mouseout', () => {
     autoUpdateShowsCarousel = setInterval(moveCarousel, 2000)
 });
