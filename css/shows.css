@@ -179,7 +179,7 @@
     display: flex;
     font-size: 26px;
     font-family: "Rajdhani", sans-serif;
-
+    text-decoration: none;
 }
 
 .shows svg {
