@@ -179,6 +179,9 @@
     display: flex;
     font-size: 26px;
     font-family: "Rajdhani", sans-serif;
+}
+
+.shows__links a {
     text-decoration: none;
 }
 
@@ -196,38 +199,43 @@
         margin: 40px 120px 15px 30px;
         line-height: 23.6px;
     }
- 
+
     .shows__card--cosmo-woman {
         width: 350px;
         height: 470px;
     }
+
     .shows__card--shuttle {
         width: 350px;
         height: 470px;
     }
+
     .shows__card--cosmos {
         width: 350px;
         height: 470px;
     }
+
     .shows__card--vr-girl {
         width: 350px;
         height: 470px;
     }
+
     .shows__carousel-button-container {
         width: 70px;
     }
+
     .shows__button--prev {
         height: 60px;
     }
-    
+
     .shows__button--next {
         height: 60px;
     }
-    
+
     .shows__button--prev:hover {
         height: 70px;
     }
-    
+
     .shows__button--next:hover {
         height: 70px;
     }
