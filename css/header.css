@@ -64,7 +64,6 @@ body.lock {
     font-size: calc(2em + 4vw);
     color: var(--main-white-color);
     text-align: center;
-    overflow-x:hidden;
 }
 
 .header__hero p {
