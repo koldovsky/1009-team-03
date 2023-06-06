@@ -8,7 +8,7 @@
 
 .why-us__container {
     padding-bottom: 100px;
-    padding-left: 80px;
+    padding-left: 40px;
     max-width: 900px;
 }
 
@@ -123,6 +123,9 @@
 }
 
 @media (min-width: 850px) {
+    .why-us__container {
+        padding-left: 80px;
+    }
     .why-us__cards {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
